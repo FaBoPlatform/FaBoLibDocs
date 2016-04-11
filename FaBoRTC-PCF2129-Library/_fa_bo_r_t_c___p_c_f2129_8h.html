@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('_fa_bo_r_t_c___p_c_f2129_8h.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>PCF2129 library Hedder.  
+<p>fabo libtary of PCF2129  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
 <code>#include &lt;Wire.h&gt;</code><br />
@@ -150,22 +150,24 @@ Macros</h2></td></tr>
 <tr class="separator:ac54b487a6b6a52e9cab362285aac24ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>PCF2129 library Hedder. </p>
+<div class="textblock"><p>fabo libtary of PCF2129 </p>
+<dl class="section author"><dt>Author</dt><dd>Akira Sasaki </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2,10, 2016 </dd></dl>
 
 <p>Definition in file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a90c3d28a594ad7f5799c719752d9c7d6"></a>
+<a class="anchor" id="ad792f9f8c52b8f548ab59c31766c2e4a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PCF2129_CONTROL_12_24&#160;&#160;&#160;0x04</td>
+          <td class="memname">#define PCF2129_SLAVE_ADDRESS&#160;&#160;&#160;0x51</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Mode Cntrol Register : 12-hour mode or 24-hour mode </p>
+<p>SLAVE_ADDRESS </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00017">17</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00014">14</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>
@@ -180,67 +182,22 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Cntrol Register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00015">15</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00017">17</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aed5df3fa4b71df5eb26892fbf0d593b5"></a>
+<a class="anchor" id="a90c3d28a594ad7f5799c719752d9c7d6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PCF2129_DAYS&#160;&#160;&#160;0x06</td>
+          <td class="memname">#define PCF2129_CONTROL_12_24&#160;&#160;&#160;0x04</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Days Register </p>
+<p>Mode Cntrol Register : 12-hour mode or 24-hour mode </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00026">26</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7bef682b42ed91ff338a7db7e06e069a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PCF2129_HOURS&#160;&#160;&#160;0x05</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Hours Register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00024">24</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8e8b5e649b1322a43968a3e98938e41c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PCF2129_MINUTES&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Minutes Register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00022">22</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a927edb5768f3291efaa932ad3f084553"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PCF2129_MONTHS&#160;&#160;&#160;0x08</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Months Register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00030">30</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00019">19</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>
@@ -255,22 +212,52 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Seconds Register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00020">20</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00022">22</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad792f9f8c52b8f548ab59c31766c2e4a"></a>
+<a class="anchor" id="a8e8b5e649b1322a43968a3e98938e41c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PCF2129_SLAVE_ADDRESS&#160;&#160;&#160;0x51</td>
+          <td class="memname">#define PCF2129_MINUTES&#160;&#160;&#160;0x04</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SLAVE_ADDRESS </p>
+<p>Minutes Register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00012">12</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00024">24</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7bef682b42ed91ff338a7db7e06e069a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PCF2129_HOURS&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Hours Register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00026">26</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aed5df3fa4b71df5eb26892fbf0d593b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PCF2129_DAYS&#160;&#160;&#160;0x06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Days Register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00028">28</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>
@@ -285,7 +272,22 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Weekdays Register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00028">28</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00030">30</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a927edb5768f3291efaa932ad3f084553"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PCF2129_MONTHS&#160;&#160;&#160;0x08</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Months Register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00032">32</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +302,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Years Register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00032">32</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00034">34</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>

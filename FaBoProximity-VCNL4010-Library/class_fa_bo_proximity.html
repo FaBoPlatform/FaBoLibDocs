@@ -105,7 +105,8 @@ $(document).ready(function(){initNavTree('class_fa_bo_proximity.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_fa_bo_proximity-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FaBoProximity Class Reference</div>  </div>
@@ -161,22 +162,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d9736e653604f92bdd432ea22538a85"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a8d9736e653604f92bdd432ea22538a85">readAmbiValue</a> (void)</td></tr>
 <tr class="memdesc:a8d9736e653604f92bdd432ea22538a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Command Data.  <a href="#a8d9736e653604f92bdd432ea22538a85">More...</a><br /></td></tr>
 <tr class="separator:a8d9736e653604f92bdd432ea22538a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0757884b05bf4485e6b925d5505026"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ada0757884b05bf4485e6b925d5505026">readI2c</a> (uint8_t address)</td></tr>
-<tr class="memdesc:ada0757884b05bf4485e6b925d5505026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#ada0757884b05bf4485e6b925d5505026">More...</a><br /></td></tr>
-<tr class="separator:ada0757884b05bf4485e6b925d5505026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a3879d4b2f90962d3b9a92e3abee47a6b">writeI2c</a> (uint8_t address, uint8_t data)</td></tr>
 <tr class="memdesc:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#a3879d4b2f90962d3b9a92e3abee47a6b">More...</a><br /></td></tr>
 <tr class="separator:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada0757884b05bf4485e6b925d5505026"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ada0757884b05bf4485e6b925d5505026">readI2c</a> (uint8_t address)</td></tr>
+<tr class="memdesc:ada0757884b05bf4485e6b925d5505026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#ada0757884b05bf4485e6b925d5505026">More...</a><br /></td></tr>
+<tr class="separator:ada0757884b05bf4485e6b925d5505026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a8bbe5683b4c696ee81b8bee2c2983fa6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a8bbe5683b4c696ee81b8bee2c2983fa6">_i2caddr</a></td></tr>
 <tr class="separator:a8bbe5683b4c696ee81b8bee2c2983fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>VCNL4010 Control. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00170">170</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00173">173</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae4432807ebc3f6bcf9c0a14eed1fb345"></a>
 <div class="memitem">
@@ -200,7 +204,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00007">7</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00013">13</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -228,7 +232,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00012">12</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00023">23</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -255,7 +259,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00020">20</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00036">36</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +279,7 @@ Public Attributes</h2></td></tr>
 
 <p>Set Config. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00024">24</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00043">43</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -301,7 +305,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00036">36</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00059">59</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -322,7 +326,7 @@ Public Attributes</h2></td></tr>
 <p>Read LED Current for Proximity. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : IR LED current value </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00043">43</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00070">70</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -348,7 +352,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00047">47</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00078">78</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -369,7 +373,7 @@ Public Attributes</h2></td></tr>
 <p>Read Command Data. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : read command value </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00051">51</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00086">86</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -395,7 +399,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00055">55</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00094">94</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -421,7 +425,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00059">59</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00102">102</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +452,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00063">63</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00111">111</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -475,7 +479,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00070">70</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00123">123</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -496,7 +500,7 @@ Public Attributes</h2></td></tr>
 <p>Read Proximity. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : Proximity value </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00077">77</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00134">134</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -517,40 +521,16 @@ Public Attributes</h2></td></tr>
 <p>Read Command Data. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : Ambient Light value </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00085">85</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ada0757884b05bf4485e6b925d5505026"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoProximity::readI2c </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>address</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read I2C Data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Read Data </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00095">95</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00146">146</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a3879d4b2f90962d3b9a92e3abee47a6b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void FaBoProximity::writeI2c </td>
@@ -570,6 +550,11 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Write I2C Data. </p>
@@ -581,7 +566,42 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00104">104</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00161">161</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada0757884b05bf4485e6b925d5505026"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoProximity::readI2c </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : Read Data </dd></dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00173">173</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -589,15 +609,23 @@ Public Attributes</h2></td></tr>
 <a class="anchor" id="a8bbe5683b4c696ee81b8bee2c2983fa6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">uint8_t FaBoProximity::_i2caddr</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>set VCNL4010 Devise address </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00247">247</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00191">191</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
 
 </div>
 </div>

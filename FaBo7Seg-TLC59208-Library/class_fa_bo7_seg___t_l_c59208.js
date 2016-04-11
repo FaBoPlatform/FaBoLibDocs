@@ -11,5 +11,9 @@ var class_fa_bo7_seg___t_l_c59208 =
     [ "showNumberFullDigit", "class_fa_bo7_seg___t_l_c59208.html#a2a116cc8a56d1e4e116c70db960e3123", null ],
     [ "showDot", "class_fa_bo7_seg___t_l_c59208.html#a13c56d7c6839f081e07c384559c4dfeb", null ],
     [ "clearDot", "class_fa_bo7_seg___t_l_c59208.html#ac56b4457f68e015a20581f8a3436bbc0", null ],
-    [ "showPattern", "class_fa_bo7_seg___t_l_c59208.html#a24a16e8d507584dcf5c8d44b42b2df44", null ]
+    [ "showPattern", "class_fa_bo7_seg___t_l_c59208.html#a24a16e8d507584dcf5c8d44b42b2df44", null ],
+    [ "checkI2c", "class_fa_bo7_seg___t_l_c59208.html#a575783a394b26140c6082d10c9d3cd50", null ],
+    [ "writeI2c", "class_fa_bo7_seg___t_l_c59208.html#a14aa638278e1a2ea34284de61e83d0c5", null ],
+    [ "_i2caddr", "class_fa_bo7_seg___t_l_c59208.html#acc6a06542996e503bb0f86b776d9b095", null ],
+    [ "_digits", "class_fa_bo7_seg___t_l_c59208.html#a65148be7b86555f1ab04763eb266c72d", null ]
 ];

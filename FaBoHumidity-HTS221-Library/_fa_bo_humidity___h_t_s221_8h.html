@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('_fa_bo_humidity___h_t_s221_8h.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>HTS221 library Hedder.  
+<p>fabo libtary of HTS221  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
 <code>#include &lt;Wire.h&gt;</code><br />
@@ -125,10 +125,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ae4febb86e488dda5f8e7d6d97e5f0a3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fa_bo_humidity___h_t_s221_8h.html#ae4febb86e488dda5f8e7d6d97e5f0a3d">HTS221_WHO_AM_I</a>&#160;&#160;&#160;0x0F</td></tr>
-<tr class="separator:ae4febb86e488dda5f8e7d6d97e5f0a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad171634d7ef6ec2f3d1cb0e45ff11866"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fa_bo_humidity___h_t_s221_8h.html#ad171634d7ef6ec2f3d1cb0e45ff11866">HTS221_SLAVE_ADDRESS</a>&#160;&#160;&#160;0x5F</td></tr>
 <tr class="separator:ad171634d7ef6ec2f3d1cb0e45ff11866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4febb86e488dda5f8e7d6d97e5f0a3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fa_bo_humidity___h_t_s221_8h.html#ae4febb86e488dda5f8e7d6d97e5f0a3d">HTS221_WHO_AM_I</a>&#160;&#160;&#160;0x0F</td></tr>
+<tr class="separator:ae4febb86e488dda5f8e7d6d97e5f0a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ee1a9d2b36494821d7cd527daf3a2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fa_bo_humidity___h_t_s221_8h.html#a37ee1a9d2b36494821d7cd527daf3a2a">HTS221_DEVICE</a>&#160;&#160;&#160;0xBC</td></tr>
 <tr class="separator:a37ee1a9d2b36494821d7cd527daf3a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a670fbf027b123a2166fdbcf8dffe9dcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fa_bo_humidity___h_t_s221_8h.html#a670fbf027b123a2166fdbcf8dffe9dcf">HTS221_AV_CONF</a>&#160;&#160;&#160;0x10</td></tr>
@@ -189,295 +189,12 @@ Macros</h2></td></tr>
 <tr class="separator:a0aeccdebd0a84275823ae867bc8516db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>HTS221 library Hedder. </p>
+<div class="textblock"><p>fabo libtary of HTS221 </p>
+<dl class="section author"><dt>Author</dt><dd>Akira Sasaki </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2,10, 2016 </dd></dl>
 
 <p>Definition in file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a670fbf027b123a2166fdbcf8dffe9dcf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_AV_CONF&#160;&#160;&#160;0x10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>resolution mode register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00019">19</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa19cd17e6e8334604546d01f302a0d45"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_AVGH_512&#160;&#160;&#160;0b111</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Humidity average 512 register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00047">47</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6e37bf5672590ed5a96ba90771ff6b62"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_AVGT_256&#160;&#160;&#160;0b111</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Temperature average 256 register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00045">45</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aff55b57fe5006ad3eec7c08371c25b4b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_BDU_ON&#160;&#160;&#160;0b100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>block data update ON register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00052">52</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abece3ffa2b24a5180e54b6825fc672fa"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_CTRL_REG1&#160;&#160;&#160;0x20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Control register1 register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00021">21</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a37ee1a9d2b36494821d7cd527daf3a2a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_DEVICE&#160;&#160;&#160;0xBC</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Device check register register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00016">16</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af9bfd58a9221ec51d2186983a222bd7a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_H0_RH_X2&#160;&#160;&#160;0x30</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Relative humidity data H0(LSB) x 2 register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00067">67</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa9b6b6d254d4ec273c518351485f18c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_H0_T0_OUT_H&#160;&#160;&#160;0x37</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Humidity data H0_T0 OUT(MSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00073">73</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0f6c4b05bc48e0b948a0fd3ccef9c1d4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_H0_T0_OUT_L&#160;&#160;&#160;0x36</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Humidity data H0_T0 OUT(LSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00071">71</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a821173ee52f5d73a587aea678746d421"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_H1_RH_X2&#160;&#160;&#160;0x31</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Relative humidity data H0(MSB) x 2 register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00069">69</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0aeccdebd0a84275823ae867bc8516db"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_H1_T0_OUT_H&#160;&#160;&#160;0x3B</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Humidity data T1_T0 OUT(MSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00077">77</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a26d2bf0f370d82ad94042a8267b0675c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_H1_T0_OUT_L&#160;&#160;&#160;0x3A</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Humidity data H1_T0 OUT(LSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00075">75</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac18e5fa1627a5c62d5f6e7d61a5c9966"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_HR_OUT_H_REG&#160;&#160;&#160;0x29</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Relative humidity data (MSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00065">65</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a082bb982bdc2e0f5b5240d6166dddd8b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_HR_OUT_L_REG&#160;&#160;&#160;0x28</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Relative humidity data (LSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00063">63</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad0b0b694b732e8ea3b820504dfbe3c0a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_ODR_12_5KHZ&#160;&#160;&#160;0b11</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>output data rate selection 12.5khz register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00060">60</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8adc43b824ad6a91b978821d71171d22"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_ODR_1KHZ&#160;&#160;&#160;0b01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>output data rate selection 1khz register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00056">56</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5bfb29d1e7236b1603ad222aeaa4ce7a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_ODR_7KHZ&#160;&#160;&#160;0b10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>output data rate selection 7khz register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00058">58</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6edaf33d4d2d18dd3cd6302c7ce4c990"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_ODR_ONESHOT&#160;&#160;&#160;0b00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>output data rate selection Oneshot register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00054">54</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa60edc9f5341ecf4c3c927ade28dd02e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_PD_ON&#160;&#160;&#160;0b10000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Power Down ON register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00050">50</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ad171634d7ef6ec2f3d1cb0e45ff11866"></a>
 <div class="memitem">
 <div class="memproto">
@@ -493,6 +210,66 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae4febb86e488dda5f8e7d6d97e5f0a3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_WHO_AM_I&#160;&#160;&#160;0x0F</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Who_am_i register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00016">16</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37ee1a9d2b36494821d7cd527daf3a2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_DEVICE&#160;&#160;&#160;0xBC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Device check register register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00018">18</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a670fbf027b123a2166fdbcf8dffe9dcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_AV_CONF&#160;&#160;&#160;0x10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>resolution mode register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00021">21</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abece3ffa2b24a5180e54b6825fc672fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_CTRL_REG1&#160;&#160;&#160;0x20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Control register1 register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00023">23</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad1826b66e769ee6faa1ce14b78e6c8a2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -504,7 +281,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Status register1 register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00023">23</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00025">25</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
@@ -519,52 +296,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Temperature data T0 DEGC (LSB) x 8 register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00026">26</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a158e6b93f5439fde814e90510f87a2d2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_T0_OUT_H&#160;&#160;&#160;0x3D</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Temperature data T0 OUT(MSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00034">34</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae19d5e4142581d49c372978cf670ac23"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_T0_OUT_L&#160;&#160;&#160;0x3C</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Temperature data T0 OUT(LSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00032">32</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a59518f8af1e14f6faa105df6ab944137"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define HTS221_T0_T1_DEGC_H2&#160;&#160;&#160;0x35</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Temperature data T0 T1 DEGC (MSB) register </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00030">30</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00028">28</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
@@ -579,22 +311,52 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Temperature data T1 DEGC (LSB) x 8 register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00028">28</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00030">30</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a00ba1f41551f55db76679434b46f499f"></a>
+<a class="anchor" id="a59518f8af1e14f6faa105df6ab944137"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HTS221_T1_OUT_H&#160;&#160;&#160;0x3F</td>
+          <td class="memname">#define HTS221_T0_T1_DEGC_H2&#160;&#160;&#160;0x35</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Temperature data T1 OUT(MSB) register </p>
+<p>Temperature data T0 T1 DEGC (MSB) register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00038">38</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00032">32</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae19d5e4142581d49c372978cf670ac23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_T0_OUT_L&#160;&#160;&#160;0x3C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Temperature data T0 OUT(LSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00034">34</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a158e6b93f5439fde814e90510f87a2d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_T0_OUT_H&#160;&#160;&#160;0x3D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Temperature data T0 OUT(MSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00036">36</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
@@ -609,22 +371,22 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Temperature data T1 OUT(LSB) register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00036">36</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00038">38</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab1327a19e5c04f3889173b9d6b9147f1"></a>
+<a class="anchor" id="a00ba1f41551f55db76679434b46f499f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HTS221_TEMP_OUT_H&#160;&#160;&#160;0x2B</td>
+          <td class="memname">#define HTS221_T1_OUT_H&#160;&#160;&#160;0x3F</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Temperature data (MSB) register </p>
+<p>Temperature data T1 OUT(MSB) register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00042">42</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00040">40</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
@@ -639,22 +401,262 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>Temperature data (LSB) register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00040">40</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00042">42</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae4febb86e488dda5f8e7d6d97e5f0a3d"></a>
+<a class="anchor" id="ab1327a19e5c04f3889173b9d6b9147f1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define HTS221_WHO_AM_I&#160;&#160;&#160;0x0F</td>
+          <td class="memname">#define HTS221_TEMP_OUT_H&#160;&#160;&#160;0x2B</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Who_am_i register </p>
+<p>Temperature data (MSB) register </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00012">12</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00044">44</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6e37bf5672590ed5a96ba90771ff6b62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_AVGT_256&#160;&#160;&#160;0b111</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Temperature average 256 register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00047">47</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa19cd17e6e8334604546d01f302a0d45"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_AVGH_512&#160;&#160;&#160;0b111</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Humidity average 512 register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00049">49</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa60edc9f5341ecf4c3c927ade28dd02e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_PD_ON&#160;&#160;&#160;0b10000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Power Down ON register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00052">52</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aff55b57fe5006ad3eec7c08371c25b4b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_BDU_ON&#160;&#160;&#160;0b100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>block data update ON register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00054">54</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6edaf33d4d2d18dd3cd6302c7ce4c990"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_ODR_ONESHOT&#160;&#160;&#160;0b00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>output data rate selection Oneshot register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00056">56</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8adc43b824ad6a91b978821d71171d22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_ODR_1KHZ&#160;&#160;&#160;0b01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>output data rate selection 1khz register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00058">58</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5bfb29d1e7236b1603ad222aeaa4ce7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_ODR_7KHZ&#160;&#160;&#160;0b10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>output data rate selection 7khz register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00060">60</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0b0b694b732e8ea3b820504dfbe3c0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_ODR_12_5KHZ&#160;&#160;&#160;0b11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>output data rate selection 12.5khz register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00062">62</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a082bb982bdc2e0f5b5240d6166dddd8b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_HR_OUT_L_REG&#160;&#160;&#160;0x28</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative humidity data (LSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00065">65</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac18e5fa1627a5c62d5f6e7d61a5c9966"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_HR_OUT_H_REG&#160;&#160;&#160;0x29</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative humidity data (MSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00067">67</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9bfd58a9221ec51d2186983a222bd7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_H0_RH_X2&#160;&#160;&#160;0x30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative humidity data H0(LSB) x 2 register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00069">69</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a821173ee52f5d73a587aea678746d421"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_H1_RH_X2&#160;&#160;&#160;0x31</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative humidity data H0(MSB) x 2 register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00071">71</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f6c4b05bc48e0b948a0fd3ccef9c1d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_H0_T0_OUT_L&#160;&#160;&#160;0x36</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Humidity data H0_T0 OUT(LSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00073">73</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9b6b6d254d4ec273c518351485f18c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_H0_T0_OUT_H&#160;&#160;&#160;0x37</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Humidity data H0_T0 OUT(MSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00075">75</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26d2bf0f370d82ad94042a8267b0675c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_H1_T0_OUT_L&#160;&#160;&#160;0x3A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Humidity data H1_T0 OUT(LSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00077">77</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0aeccdebd0a84275823ae867bc8516db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HTS221_H1_T0_OUT_H&#160;&#160;&#160;0x3B</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Humidity data T1_T0 OUT(MSB) register </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html#l00079">79</a> of file <a class="el" href="_fa_bo_humidity___h_t_s221_8h_source.html">FaBoHumidity_HTS221.h</a>.</p>
 
 </div>
 </div>

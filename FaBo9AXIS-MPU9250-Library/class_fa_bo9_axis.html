@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('class_fa_bo9_axis.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_fa_bo9_axis-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FaBo9Axis Class Reference</div>  </div>
@@ -142,11 +143,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a97f143932be5c8495b55eec687b4a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a4a97f143932be5c8495b55eec687b4a9">readMagnetXYZ</a> (int *x, int *y, int *z)</td></tr>
 <tr class="memdesc:a4a97f143932be5c8495b55eec687b4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Magnetometer Value.  <a href="#a4a97f143932be5c8495b55eec687b4a9">More...</a><br /></td></tr>
 <tr class="separator:a4a97f143932be5c8495b55eec687b4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac256414cbb9d843b3133a5c86f952819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#ac256414cbb9d843b3133a5c86f952819">writeI2c</a> (byte address, byte register_addr, byte value)</td></tr>
+<tr class="memdesc:ac256414cbb9d843b3133a5c86f952819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#ac256414cbb9d843b3133a5c86f952819">More...</a><br /></td></tr>
+<tr class="separator:ac256414cbb9d843b3133a5c86f952819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0992e5833b9c2ae9d6901ca12ac569c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a0992e5833b9c2ae9d6901ca12ac569c2">readI2c</a> (byte address, byte register_addr, int num, byte *buf)</td></tr>
+<tr class="memdesc:a0992e5833b9c2ae9d6901ca12ac569c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#a0992e5833b9c2ae9d6901ca12ac569c2">More...</a><br /></td></tr>
+<tr class="separator:a0992e5833b9c2ae9d6901ca12ac569c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>mpu9250 Control </p>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8h_source.html#l00145">145</a> of file <a class="el" href="fabo-mpu9250_8h_source.html">fabo-mpu9250.h</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8h_source.html#l00149">149</a> of file <a class="el" href="fabo-mpu9250_8h_source.html">fabo-mpu9250.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a744b19515a2e890e3ab7b91a384de9ee"></a>
 <div class="memitem">
@@ -171,7 +181,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00007">7</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00014">14</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -191,7 +201,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set Config. </p>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00033">33</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00032">32</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -211,7 +221,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Power On. </p>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00022">22</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00052">52</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -231,7 +241,7 @@ Public Member Functions</h2></td></tr>
 
 <p>MPU9250 Reset. </p>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00028">28</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00061">61</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +285,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00050">50</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00072">72</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -319,7 +329,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00060">60</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00088">88</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -339,7 +349,7 @@ Public Member Functions</h2></td></tr>
 <p>Read Temperature Value. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint16_t : Temperature value </dd></dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00070">70</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00102">102</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>
@@ -383,7 +393,116 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00078">78</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00116">116</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac256414cbb9d843b3133a5c86f952819"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBo9Axis::writeI2c </td>
+          <td>(</td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>register_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: Write Register Address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>: Write Data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00131">131</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0992e5833b9c2ae9d6901ca12ac569c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBo9Axis::readI2c </td>
+          <td>(</td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>register_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte *&#160;</td>
+          <td class="paramname"><em>buf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>: Data Length </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">*buf</td><td>: Read Data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00145">145</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
 
 </div>
 </div>

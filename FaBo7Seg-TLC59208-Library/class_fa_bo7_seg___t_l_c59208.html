@@ -105,6 +105,8 @@ $(document).ready(function(){initNavTree('class_fa_bo7_seg___t_l_c59208.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_fa_bo7_seg___t_l_c59208-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FaBo7Seg_TLC59208 Class Reference</div>  </div>
@@ -154,11 +156,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a24a16e8d507584dcf5c8d44b42b2df44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo7_seg___t_l_c59208.html#a24a16e8d507584dcf5c8d44b42b2df44">showPattern</a> (uint8_t data, uint8_t digit=0)</td></tr>
 <tr class="memdesc:a24a16e8d507584dcf5c8d44b42b2df44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Dot.  <a href="#a24a16e8d507584dcf5c8d44b42b2df44">More...</a><br /></td></tr>
 <tr class="separator:a24a16e8d507584dcf5c8d44b42b2df44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a575783a394b26140c6082d10c9d3cd50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo7_seg___t_l_c59208.html#a575783a394b26140c6082d10c9d3cd50">checkI2c</a> (uint8_t address)</td></tr>
+<tr class="memdesc:a575783a394b26140c6082d10c9d3cd50"><td class="mdescLeft">&#160;</td><td class="mdescRight">I2C Device check.  <a href="#a575783a394b26140c6082d10c9d3cd50">More...</a><br /></td></tr>
+<tr class="separator:a575783a394b26140c6082d10c9d3cd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14aa638278e1a2ea34284de61e83d0c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo7_seg___t_l_c59208.html#a14aa638278e1a2ea34284de61e83d0c5">writeI2c</a> (uint8_t address, uint8_t data)</td></tr>
+<tr class="memdesc:a14aa638278e1a2ea34284de61e83d0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#a14aa638278e1a2ea34284de61e83d0c5">More...</a><br /></td></tr>
+<tr class="separator:a14aa638278e1a2ea34284de61e83d0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:acc6a06542996e503bb0f86b776d9b095"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo7_seg___t_l_c59208.html#acc6a06542996e503bb0f86b776d9b095">_i2caddr</a> [4]</td></tr>
+<tr class="separator:acc6a06542996e503bb0f86b776d9b095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65148be7b86555f1ab04763eb266c72d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo7_seg___t_l_c59208.html#a65148be7b86555f1ab04763eb266c72d">_digits</a></td></tr>
+<tr class="separator:a65148be7b86555f1ab04763eb266c72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>TLC59208 Control. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html#l00094">94</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html">FaBo7Seg_TLC59208.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html#l00097">97</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html">FaBo7Seg_TLC59208.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aac930a4a8729c3a6e07e1a35a6935207"></a>
 <div class="memitem">
@@ -182,7 +200,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00007">7</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00013">13</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -219,7 +237,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00013">13</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00024">24</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,7 +281,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00020">20</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00037">37</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -314,7 +332,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00028">28</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00052">52</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -342,7 +360,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00037">37</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00066">66</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -362,7 +380,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set Config. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00046">46</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00078">78</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -399,7 +417,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00073">73</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00110">110</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -420,12 +438,12 @@ Public Member Functions</h2></td></tr>
 <p>Clear Number. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices (default 0) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00111">111</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00152">152</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -446,12 +464,12 @@ Public Member Functions</h2></td></tr>
 <p>Set Number　Full Device. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">number</td><td>: Number of devices </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00115">115</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00160">160</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -472,12 +490,12 @@ Public Member Functions</h2></td></tr>
 <p>Set Dot. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices ( 0 ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices (default 0) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00127">127</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00176">176</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -498,12 +516,12 @@ Public Member Functions</h2></td></tr>
 <p>Clear Dot. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices ( 0 ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices (default 0) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00134">134</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00187">187</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
 
 </div>
 </div>
@@ -535,12 +553,145 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>: Set Data </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices ( 0 ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">digit</td><td>: Number of devices (default 0) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00141">141</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00199">199</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a575783a394b26140c6082d10c9d3cd50"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FaBo7Seg_TLC59208::checkI2c </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>I2C Device check. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addrss</td><td>: TLC59208 Slave Address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>: Device OK </td></tr>
+    <tr><td class="paramname">false</td><td>: Device NG </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00211">211</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14aa638278e1a2ea34284de61e83d0c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBo7Seg_TLC59208::writeI2c </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: Write Register Address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>: Write Data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html#l00221">221</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8cpp_source.html">FaBo7Seg_TLC59208.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="acc6a06542996e503bb0f86b776d9b095"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBo7Seg_TLC59208::_i2caddr[4]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TLC59208 Device Address array </p>
+
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html#l00113">113</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html">FaBo7Seg_TLC59208.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65148be7b86555f1ab04763eb266c72d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBo7Seg_TLC59208::_digits</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of devices </p>
+
+<p>Definition at line <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html#l00115">115</a> of file <a class="el" href="_fa_bo7_seg___t_l_c59208_8h_source.html">FaBo7Seg_TLC59208.h</a>.</p>
 
 </div>
 </div>

@@ -7,5 +7,7 @@ var class_fa_bo9_axis =
     [ "readAccelXYZ", "class_fa_bo9_axis.html#a9a4b6b318d6f2895853a58000d4e71ef", null ],
     [ "readGyroXYZ", "class_fa_bo9_axis.html#a12d4e1c47ff056b24fa770ff729a7c5b", null ],
     [ "readTemperature", "class_fa_bo9_axis.html#a9b44def1e52d4e48be0b8982c48efc16", null ],
-    [ "readMagnetXYZ", "class_fa_bo9_axis.html#a4a97f143932be5c8495b55eec687b4a9", null ]
+    [ "readMagnetXYZ", "class_fa_bo9_axis.html#a4a97f143932be5c8495b55eec687b4a9", null ],
+    [ "writeI2c", "class_fa_bo9_axis.html#ac256414cbb9d843b3133a5c86f952819", null ],
+    [ "readI2c", "class_fa_bo9_axis.html#a0992e5833b9c2ae9d6901ca12ac569c2", null ]
 ];

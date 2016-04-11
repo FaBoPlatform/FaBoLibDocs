@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['now',['now',['../class_fa_bo_r_t_c___p_c_f2129.html#a869ae9a749f5884ec0856cdf94d74c7b',1,'FaBoRTC_PCF2129']]]
+  ['hh',['hh',['../class_date_time.html#ad65c31b7b4bf0430311e5bdf3f343371',1,'DateTime']]],
+  ['hour',['hour',['../class_date_time.html#a71816802ff06e06d53ae3e7f420f0196',1,'DateTime']]]
 ];

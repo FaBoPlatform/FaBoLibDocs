@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('fabo-mcp3421_8h.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>MCP3421 library Hedder.  
+<p>fabo libtary of mcp3421  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;Arduino.h&quot;</code><br />
 <code>#include &quot;Wire.h&quot;</code><br />
@@ -159,187 +159,24 @@ Macros</h2></td></tr>
 <tr class="separator:af4aad8e863e4b265ee03449b39ced0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>MCP3421 library Hedder. </p>
+<div class="textblock"><p>fabo libtary of mcp3421 </p>
+<dl class="section author"><dt>Author</dt><dd>Akira Sasaki </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2,10, 2016 </dd></dl>
 
 <p>Definition in file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ab83106d5717814fc12f51d5f47d8cbf9"></a>
+<a class="anchor" id="a2d0249f6b9ad2509e181c32b3f4ef1e7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MCP3421_CONFIG_CONV_CONTINUOUS&#160;&#160;&#160;0b00010000</td>
+          <td class="memname">#define MCP3421_SLAVE_ADDRESS&#160;&#160;&#160;(0x69)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>CONFIG Conversion Continuous </p>
+<p>SLAVE_ADDRESS </p>
 
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00021">21</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2f4e2f2d051e8b50aee4c6befe519e37"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_CONV_ONE_SHOT&#160;&#160;&#160;0b00000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Conversion One_shot </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00023">23</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aae72f0d8e30c347eaa87074a9f8b323a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_GAIN_X1&#160;&#160;&#160;0b00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Gain x1 </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00033">33</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a294be1cefbe25d6bf6561260644ab1fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_GAIN_X2&#160;&#160;&#160;0b01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Gain x2 </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00035">35</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad81aae0a1c892a88b68cd209f7338827"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_GAIN_X4&#160;&#160;&#160;0b10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Gain x4 </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00037">37</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8218712c9201f7190b73c4a4a0cb5d11"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_GAIN_X8&#160;&#160;&#160;0b11</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Gain x8 </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00039">39</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af771112d2ee054565aa462fcc579479d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_RATE_15SPS&#160;&#160;&#160;0b10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Data Rate 15SPS </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00029">29</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a59138972b9a0b7650e788ac833666e36"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_RATE_240SPS&#160;&#160;&#160;0b00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Data Rate 240SPS </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00025">25</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4a136b2e6de43626559cbd46441b15c3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_RATE_3_75SPS&#160;&#160;&#160;0b11</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Data Rate 3.75SPS </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00031">31</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a725b91fdc67d2252554527bc708cfaf8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_RATE_60SPS&#160;&#160;&#160;0b01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Data Rate 60SPS </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00027">27</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a82e2bd88b0e6ba4af6c5e857c210baae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_RDY_OFF&#160;&#160;&#160;0b00000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Redy Flg OFF </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00019">19</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae0aef300d8ccd719c2304493fcc8b495"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_CONFIG_RDY_ON&#160;&#160;&#160;0b10000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>CONFIG Redy Flg ON </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00017">17</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00011">11</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
 
 </div>
 </div>
@@ -354,22 +191,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>CONFIG REGISTER </p>
 
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00012">12</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af4aad8e863e4b265ee03449b39ced0c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCP3421_DEVICE&#160;&#160;&#160;0xD0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>DEVICE CHECK </p>
-
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00041">41</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00014">14</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
 
 </div>
 </div>
@@ -384,22 +206,202 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <p>DEVICE REGISTER </p>
 
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00014">14</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00016">16</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2d0249f6b9ad2509e181c32b3f4ef1e7"></a>
+<a class="anchor" id="ae0aef300d8ccd719c2304493fcc8b495"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MCP3421_SLAVE_ADDRESS&#160;&#160;&#160;(0x69)</td>
+          <td class="memname">#define MCP3421_CONFIG_RDY_ON&#160;&#160;&#160;0b10000000</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>SLAVE_ADDRESS </p>
+<p>CONFIG Redy Flg ON </p>
 
-<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00009">9</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00019">19</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a82e2bd88b0e6ba4af6c5e857c210baae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_RDY_OFF&#160;&#160;&#160;0b00000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Redy Flg OFF </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00021">21</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab83106d5717814fc12f51d5f47d8cbf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_CONV_CONTINUOUS&#160;&#160;&#160;0b00010000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Conversion Continuous </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00023">23</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f4e2f2d051e8b50aee4c6befe519e37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_CONV_ONE_SHOT&#160;&#160;&#160;0b00000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Conversion One_shot </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00025">25</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59138972b9a0b7650e788ac833666e36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_RATE_240SPS&#160;&#160;&#160;0b00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Data Rate 240SPS </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00027">27</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a725b91fdc67d2252554527bc708cfaf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_RATE_60SPS&#160;&#160;&#160;0b01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Data Rate 60SPS </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00029">29</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af771112d2ee054565aa462fcc579479d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_RATE_15SPS&#160;&#160;&#160;0b10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Data Rate 15SPS </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00031">31</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a136b2e6de43626559cbd46441b15c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_RATE_3_75SPS&#160;&#160;&#160;0b11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Data Rate 3.75SPS </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00033">33</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae72f0d8e30c347eaa87074a9f8b323a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_GAIN_X1&#160;&#160;&#160;0b00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Gain x1 </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00035">35</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a294be1cefbe25d6bf6561260644ab1fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_GAIN_X2&#160;&#160;&#160;0b01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Gain x2 </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00037">37</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad81aae0a1c892a88b68cd209f7338827"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_GAIN_X4&#160;&#160;&#160;0b10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Gain x4 </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00039">39</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8218712c9201f7190b73c4a4a0cb5d11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_CONFIG_GAIN_X8&#160;&#160;&#160;0b11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CONFIG Gain x8 </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00041">41</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af4aad8e863e4b265ee03449b39ced0c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MCP3421_DEVICE&#160;&#160;&#160;0xD0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>DEVICE CHECK </p>
+
+<p>Definition at line <a class="el" href="fabo-mcp3421_8h_source.html#l00043">43</a> of file <a class="el" href="fabo-mcp3421_8h_source.html">fabo-mcp3421.h</a>.</p>
 
 </div>
 </div>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['now',['now',['../class_fa_bo_r_t_c___p_c_f2129.html#a869ae9a749f5884ec0856cdf94d74c7b',1,'FaBoRTC_PCF2129']]]
+  ['minute',['minute',['../class_date_time.html#a9990c5958c55b3aa7018e21df9d490e5',1,'DateTime']]],
+  ['month',['month',['../class_date_time.html#a58beb18aec346e7081d02a2962032a43',1,'DateTime']]]
 ];

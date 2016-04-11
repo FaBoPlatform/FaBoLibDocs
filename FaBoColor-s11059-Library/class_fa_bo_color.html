@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('class_fa_bo_color.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_fa_bo_color-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FaBoColor Class Reference</div>  </div>
@@ -124,11 +125,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e74466fb7c860d86f059e74f749091d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_color.html#a0e74466fb7c860d86f059e74f749091d">readRGBI</a> (uint16_t *r, uint16_t *g, uint16_t *b, uint16_t *i)</td></tr>
 <tr class="memdesc:a0e74466fb7c860d86f059e74f749091d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Color Value.  <a href="#a0e74466fb7c860d86f059e74f749091d">More...</a><br /></td></tr>
 <tr class="separator:a0e74466fb7c860d86f059e74f749091d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a34faecc3143e0d34b762b58854fee1f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_color.html#a34faecc3143e0d34b762b58854fee1f8">writeI2c</a> (byte register_addr, byte value)</td></tr>
+<tr class="memdesc:a34faecc3143e0d34b762b58854fee1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#a34faecc3143e0d34b762b58854fee1f8">More...</a><br /></td></tr>
+<tr class="separator:a34faecc3143e0d34b762b58854fee1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286ec36ba9090db35f1c99d07a19e48a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_color.html#a286ec36ba9090db35f1c99d07a19e48a">readI2c</a> (byte register_addr, int num, byte *buf)</td></tr>
+<tr class="memdesc:a286ec36ba9090db35f1c99d07a19e48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#a286ec36ba9090db35f1c99d07a19e48a">More...</a><br /></td></tr>
+<tr class="separator:a286ec36ba9090db35f1c99d07a19e48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>S11059 Control. </p>
 
-<p>Definition at line <a class="el" href="fabo-s11059_8h_source.html#l00052">52</a> of file <a class="el" href="fabo-s11059_8h_source.html">fabo-s11059.h</a>.</p>
+<p>Definition at line <a class="el" href="fabo-s11059_8h_source.html#l00054">54</a> of file <a class="el" href="fabo-s11059_8h_source.html">fabo-s11059.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a079acfcc040ac0e06f9a8e5a0be4e31d"></a>
 <div class="memitem">
@@ -146,7 +156,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set Config. </p>
 
-<p>Definition at line <a class="el" href="fabo-s11059_8cpp_source.html#l00018">18</a> of file <a class="el" href="fabo-s11059_8cpp_source.html">fabo-s11059.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-s11059_8cpp_source.html#l00012">12</a> of file <a class="el" href="fabo-s11059_8cpp_source.html">fabo-s11059.cpp</a>.</p>
 
 </div>
 </div>
@@ -197,7 +207,104 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-s11059_8cpp_source.html#l00007">7</a> of file <a class="el" href="fabo-s11059_8cpp_source.html">fabo-s11059.cpp</a>.</p>
+<p>Definition at line <a class="el" href="fabo-s11059_8cpp_source.html#l00029">29</a> of file <a class="el" href="fabo-s11059_8cpp_source.html">fabo-s11059.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a34faecc3143e0d34b762b58854fee1f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoColor::writeI2c </td>
+          <td>(</td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>register_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>: Write Register Address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>: Write Data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="fabo-s11059_8cpp_source.html#l00045">45</a> of file <a class="el" href="fabo-s11059_8cpp_source.html">fabo-s11059.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a286ec36ba9090db35f1c99d07a19e48a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoColor::readI2c </td>
+          <td>(</td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>register_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte *&#160;</td>
+          <td class="paramname"><em>buf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>: Data Length </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer[]</td><td>: Read Data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="fabo-s11059_8cpp_source.html#l00059">59</a> of file <a class="el" href="fabo-s11059_8cpp_source.html">fabo-s11059.cpp</a>.</p>
 
 </div>
 </div>

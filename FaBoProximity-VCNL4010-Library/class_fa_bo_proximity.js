@@ -14,7 +14,7 @@ var class_fa_bo_proximity =
     [ "isAmbiDataReady", "class_fa_bo_proximity.html#a1cc7465e7a9a0dc4a5ce68818ed17a96", null ],
     [ "readProxValue", "class_fa_bo_proximity.html#ae1afad2f49f38edcf86c6b1434159697", null ],
     [ "readAmbiValue", "class_fa_bo_proximity.html#a8d9736e653604f92bdd432ea22538a85", null ],
-    [ "readI2c", "class_fa_bo_proximity.html#ada0757884b05bf4485e6b925d5505026", null ],
     [ "writeI2c", "class_fa_bo_proximity.html#a3879d4b2f90962d3b9a92e3abee47a6b", null ],
+    [ "readI2c", "class_fa_bo_proximity.html#ada0757884b05bf4485e6b925d5505026", null ],
     [ "_i2caddr", "class_fa_bo_proximity.html#a8bbe5683b4c696ee81b8bee2c2983fa6", null ]
 ];

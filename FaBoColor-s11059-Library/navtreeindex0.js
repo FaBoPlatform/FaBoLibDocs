@@ -4,6 +4,8 @@ var NAVTREEINDEX0 =
 "class_fa_bo_color.html":[0,0,0],
 "class_fa_bo_color.html#a079acfcc040ac0e06f9a8e5a0be4e31d":[0,0,0,0],
 "class_fa_bo_color.html#a0e74466fb7c860d86f059e74f749091d":[0,0,0,1],
+"class_fa_bo_color.html#a286ec36ba9090db35f1c99d07a19e48a":[0,0,0,3],
+"class_fa_bo_color.html#a34faecc3143e0d34b762b58854fee1f8":[0,0,0,2],
 "classes.html":[0,1],
 "fabo-s11059_8cpp.html":[1,0,0],
 "fabo-s11059_8cpp_source.html":[1,0,0],

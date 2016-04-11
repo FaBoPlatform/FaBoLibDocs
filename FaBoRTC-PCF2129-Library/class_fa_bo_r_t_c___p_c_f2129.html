@@ -105,6 +105,8 @@ $(document).ready(function(){initNavTree('class_fa_bo_r_t_c___p_c_f2129.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_fa_bo_r_t_c___p_c_f2129-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FaBoRTC_PCF2129 Class Reference</div>  </div>
@@ -119,10 +121,10 @@ $(document).ready(function(){initNavTree('class_fa_bo_r_t_c___p_c_f2129.html',''
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a93ca496ccb2b1bfac6b09f69555e4ee8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a93ca496ccb2b1bfac6b09f69555e4ee8">FaBoRTC_PCF2129</a> (uint8_t addr=<a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h.html#ad792f9f8c52b8f548ab59c31766c2e4a">PCF2129_SLAVE_ADDRESS</a>)</td></tr>
-<tr class="memdesc:a93ca496ccb2b1bfac6b09f69555e4ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCF2129 Control.  <a href="#a93ca496ccb2b1bfac6b09f69555e4ee8">More...</a><br /></td></tr>
+<tr class="memdesc:a93ca496ccb2b1bfac6b09f69555e4ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCF2129 processing Start.  <a href="#a93ca496ccb2b1bfac6b09f69555e4ee8">More...</a><br /></td></tr>
 <tr class="separator:a93ca496ccb2b1bfac6b09f69555e4ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e2bf7fcfba8ea977076fec32b59f74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a60e2bf7fcfba8ea977076fec32b59f74">searchDevice</a> (void)</td></tr>
-<tr class="memdesc:a60e2bf7fcfba8ea977076fec32b59f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serch PCF2129.  <a href="#a60e2bf7fcfba8ea977076fec32b59f74">More...</a><br /></td></tr>
+<tr class="memdesc:a60e2bf7fcfba8ea977076fec32b59f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search Device PCF2129.  <a href="#a60e2bf7fcfba8ea977076fec32b59f74">More...</a><br /></td></tr>
 <tr class="separator:a60e2bf7fcfba8ea977076fec32b59f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31587908f024fc17a3e17163f929c694"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a31587908f024fc17a3e17163f929c694">configure</a> (void)</td></tr>
 <tr class="memdesc:a31587908f024fc17a3e17163f929c694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Config.  <a href="#a31587908f024fc17a3e17163f929c694">More...</a><br /></td></tr>
@@ -181,11 +183,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a63092e333f86b0bc3e7bdfec2f530e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a2a63092e333f86b0bc3e7bdfec2f530e">set24mode</a> (void)</td></tr>
 <tr class="memdesc:a2a63092e333f86b0bc3e7bdfec2f530e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set 24-Hour Mode.  <a href="#a2a63092e333f86b0bc3e7bdfec2f530e">More...</a><br /></td></tr>
 <tr class="separator:a2a63092e333f86b0bc3e7bdfec2f530e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1e6aff62283f7068eb4006429908a654"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a1e6aff62283f7068eb4006429908a654">bcdToDec</a> (uint8_t value)</td></tr>
+<tr class="memdesc:a1e6aff62283f7068eb4006429908a654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from BCD to DEC.  <a href="#a1e6aff62283f7068eb4006429908a654">More...</a><br /></td></tr>
+<tr class="separator:a1e6aff62283f7068eb4006429908a654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bf50195160f28623a20f95cef0638b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a25bf50195160f28623a20f95cef0638b">decToBcd</a> (uint8_t value)</td></tr>
+<tr class="memdesc:a25bf50195160f28623a20f95cef0638b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from BCD to DEC.  <a href="#a25bf50195160f28623a20f95cef0638b">More...</a><br /></td></tr>
+<tr class="separator:a25bf50195160f28623a20f95cef0638b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05d16f27529a961d7d254d807f99dd8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#ae05d16f27529a961d7d254d807f99dd8">readI2c</a> (uint8_t address)</td></tr>
+<tr class="memdesc:ae05d16f27529a961d7d254d807f99dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#ae05d16f27529a961d7d254d807f99dd8">More...</a><br /></td></tr>
+<tr class="separator:ae05d16f27529a961d7d254d807f99dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af35c0bc769b6e6d363186643f26d17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a2af35c0bc769b6e6d363186643f26d17">writeI2c</a> (uint8_t address, uint8_t data)</td></tr>
+<tr class="memdesc:a2af35c0bc769b6e6d363186643f26d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#a2af35c0bc769b6e6d363186643f26d17">More...</a><br /></td></tr>
+<tr class="separator:a2af35c0bc769b6e6d363186643f26d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a28921ac0646a8ecff55f6e8826922a"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a9a28921ac0646a8ecff55f6e8826922a">readCtrl</a> (void)</td></tr>
+<tr class="memdesc:a9a28921ac0646a8ecff55f6e8826922a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Control and Status Register1.  <a href="#a9a28921ac0646a8ecff55f6e8826922a">More...</a><br /></td></tr>
+<tr class="separator:a9a28921ac0646a8ecff55f6e8826922a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df5c887de1e929bcf5f2936b3bf7ad6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a7df5c887de1e929bcf5f2936b3bf7ad6">writeCtrl</a> (uint8_t data)</td></tr>
+<tr class="memdesc:a7df5c887de1e929bcf5f2936b3bf7ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write Control and Status Register1.  <a href="#a7df5c887de1e929bcf5f2936b3bf7ad6">More...</a><br /></td></tr>
+<tr class="separator:a7df5c887de1e929bcf5f2936b3bf7ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2067c58fdb8872fda338ed62a80046e6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_r_t_c___p_c_f2129.html#a2067c58fdb8872fda338ed62a80046e6">_i2caddr</a></td></tr>
+<tr class="separator:a2067c58fdb8872fda338ed62a80046e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>PCF2129 Control. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00079">79</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00083">83</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a93ca496ccb2b1bfac6b09f69555e4ee8"></a>
 <div class="memitem">
@@ -201,7 +229,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>PCF2129 Control. </p>
+<p>PCF2129 processing Start. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">addr</td><td>: PCV2129 Slave Address </td></tr>
@@ -209,11 +237,38 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00007">7</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00013">13</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a60e2bf7fcfba8ea977076fec32b59f74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FaBoRTC_PCF2129::searchDevice </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search Device PCF2129. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>: Found </td></tr>
+    <tr><td class="paramname">false</td><td>: Not found </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00023">23</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a31587908f024fc17a3e17163f929c694"></a>
 <div class="memitem">
 <div class="memproto">
@@ -230,91 +285,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set Config. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00016">16</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a033a611b7029041b3a398499eb62c498"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoRTC_PCF2129::getDays </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get days from PCF2129. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get days </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00054">54</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acca202edb95aa0099a73a4d56e1dd186"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoRTC_PCF2129::getHours </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get hours from PCF2129. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get hours </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00042">42</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abfb002a44860a0b68ba2ebe1ca4afd47"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoRTC_PCF2129::getMinutes </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get minutes from PCF2129. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get minutes </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00031">31</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6564962f844353414b87abd26a98b75b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoRTC_PCF2129::getMonths </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get months from PCF2129. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get months </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00076">76</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00030">30</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
@@ -335,7 +306,174 @@ Public Member Functions</h2></td></tr>
 <p>Get seconds from PCF2129. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : get seconds </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00020">20</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00038">38</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af984fb0975a29143777b3f86b271b7b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setSeconds </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set seconds to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td>: Set to seconds </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00046">46</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abfb002a44860a0b68ba2ebe1ca4afd47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::getMinutes </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get minutes from PCF2129. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get minutes </dd></dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00057">57</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1ff7bdd0bd3f3cf1904890fbf212c90b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setMinutes </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>minutes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set minutes to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">minutes</td><td>: Set to minutes </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00065">65</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acca202edb95aa0099a73a4d56e1dd186"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::getHours </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get hours from PCF2129. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get hours </dd></dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00076">76</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5d9f00c9b4d53c44951696c355d9656"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setHours </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>hours</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set hours to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">hours</td><td>: Set to hours </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00084">84</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a033a611b7029041b3a398499eb62c498"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::getDays </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get days from PCF2129. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get days </dd></dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00096">96</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c84e6d1cab0a5995f9f0b693f922caa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setDays </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>days</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set days to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">days</td><td>: Set to days </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00104">104</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
@@ -356,7 +494,80 @@ Public Member Functions</h2></td></tr>
 <p>Get weekdays from PCF2129. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : Get weekdays </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00065">65</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00115">115</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b48d5cf7df520883a9311f70baa2cdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setWeekdays </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>weekdays</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set weekdays to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">weekdays</td><td>: Set to weekdays </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00123">123</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6564962f844353414b87abd26a98b75b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::getMonths </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get months from PCF2129. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : Get months </dd></dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00134">134</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1fe5cf92ba0b1c4c65b6dbbd684689e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setMonths </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>months</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set months to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">months</td><td>: Set to months </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00142">142</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
@@ -377,7 +588,33 @@ Public Member Functions</h2></td></tr>
 <p>Get years from PCF2129. </p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t : Get years </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00087">87</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00153">153</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a697328390cc8203ec884371cc0b16a68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::setYears </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>years</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set years to PCF2129. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">days</td><td>: Set to years </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00161">161</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
@@ -397,74 +634,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Get set to variable now from PCF2129. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00098">98</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a60e2bf7fcfba8ea977076fec32b59f74"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool FaBoRTC_PCF2129::searchDevice </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Serch PCF2129. </p>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">true</td><td>: found </td></tr>
-    <tr><td class="paramname">false</td><td>: Not found </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00012">12</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3b7e20322c4f3e8776b061f492e8c6cc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBoRTC_PCF2129::set12mode </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set 12-Hour Mode. </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00129">129</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2a63092e333f86b0bc3e7bdfec2f530e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBoRTC_PCF2129::set24mode </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set 24-Hour Mode. </p>
-
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00136">136</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00171">171</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
@@ -529,189 +699,283 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00115">115</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00197">197</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6c84e6d1cab0a5995f9f0b693f922caa"></a>
+<a class="anchor" id="a3b7e20322c4f3e8776b061f492e8c6cc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setDays </td>
+          <td class="memname">void FaBoRTC_PCF2129::set12mode </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>days</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set days to PCF2129. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">days</td><td>: Set to days </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Set 12-Hour Mode. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00058">58</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00214">214</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab5d9f00c9b4d53c44951696c355d9656"></a>
+<a class="anchor" id="a2a63092e333f86b0bc3e7bdfec2f530e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setHours </td>
+          <td class="memname">void FaBoRTC_PCF2129::set24mode </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>hours</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set hours to PCF2129. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">hours</td><td>: Set to hours </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Set 24-Hour Mode. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00046">46</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00224">224</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1ff7bdd0bd3f3cf1904890fbf212c90b"></a>
+<a class="anchor" id="a1e6aff62283f7068eb4006429908a654"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setMinutes </td>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::bcdToDec </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>minutes</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Set minutes to PCF2129. </p>
+<p>Conversion from BCD to DEC. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">minutes</td><td>: Set to minutes </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>: BCD Data </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : DEC Data </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00035">35</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00238">238</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1fe5cf92ba0b1c4c65b6dbbd684689e7"></a>
+<a class="anchor" id="a25bf50195160f28623a20f95cef0638b"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setMonths </td>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::decToBcd </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>months</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Set months to PCF2129. </p>
+<p>Conversion from BCD to DEC. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">months</td><td>: Set to months </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>: DEC Data </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : BCD Data </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00080">80</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00247">247</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af984fb0975a29143777b3f86b271b7b9"></a>
+<a class="anchor" id="ae05d16f27529a961d7d254d807f99dd8"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setSeconds </td>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::readI2c </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Set seconds to PCF2129. </p>
+<p>Read I2C Data. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">seconds</td><td>: Set to seconds </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint8_t : Read Data </dd></dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00256">256</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2af35c0bc769b6e6d363186643f26d17"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoRTC_PCF2129::writeI2c </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write I2C Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>: Write Register Address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>: Write Data </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00024">24</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00270">270</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9b48d5cf7df520883a9311f70baa2cdb"></a>
+<a class="anchor" id="a9a28921ac0646a8ecff55f6e8826922a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setWeekdays </td>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::readCtrl </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>weekdays</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Set weekdays to PCF2129. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">weekdays</td><td>: Set to weekdays </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Read Control and Status Register1. </p>
+<dl class="section return"><dt>Returns</dt><dd>data : Read Data </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00069">69</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00281">281</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a697328390cc8203ec884371cc0b16a68"></a>
+<a class="anchor" id="a7df5c887de1e929bcf5f2936b3bf7ad6"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBoRTC_PCF2129::setYears </td>
+          <td class="memname">void FaBoRTC_PCF2129::writeCtrl </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>years</em></td><td>)</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Set years to PCF2129. </p>
+<p>Write Control and Status Register1. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">days</td><td>: Set to years </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>: Write Data </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00091">91</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html#l00289">289</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8cpp_source.html">FaBoRTC_PCF2129.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a2067c58fdb8872fda338ed62a80046e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoRTC_PCF2129::_i2caddr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html#l00108">108</a> of file <a class="el" href="_fa_bo_r_t_c___p_c_f2129_8h_source.html">FaBoRTC_PCF2129.h</a>.</p>
 
 </div>
 </div>

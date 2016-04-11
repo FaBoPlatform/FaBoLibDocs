@@ -2,9 +2,11 @@ var NAVTREEINDEX0 =
 {
 "annotated.html":[0,0],
 "class_fa_bo_barometer.html":[0,0,0],
+"class_fa_bo_barometer.html#a506236c30ce3ef0e21ea056351fa01a2":[0,0,0,5],
 "class_fa_bo_barometer.html#a5c8002c4d1dc1103aa5f4b6ee383a5ba":[0,0,0,1],
 "class_fa_bo_barometer.html#a79d43ba62c7b315ea9562c52590915c2":[0,0,0,0],
 "class_fa_bo_barometer.html#a8690e22f29c381e22ac393e92c680e37":[0,0,0,3],
+"class_fa_bo_barometer.html#ac0713fe5753f5b0506e326ae68d52079":[0,0,0,4],
 "class_fa_bo_barometer.html#afdf70c3559cb266b16c7249a7f079d30":[0,0,0,2],
 "classes.html":[0,1],
 "fabo-mpl115_8cpp.html":[1,0,0],
