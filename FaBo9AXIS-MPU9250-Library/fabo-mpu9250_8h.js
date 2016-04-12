@@ -7,6 +7,7 @@ var fabo_mpu9250_8h =
     [ "AK8963_WHO_AM_I_REG", "fabo-mpu9250_8h.html#a0124dfd8d963f988e528cf7a88efbf58", null ],
     [ "MPU9250_DEVICE_NAME", "fabo-mpu9250_8h.html#ae39f043b63318007310c920a12627f75", null ],
     [ "AK8963_DEVICE_NAME", "fabo-mpu9250_8h.html#aa9dd91120561c1d414fc188ceeefb913", null ],
+    [ "MPU9250_INT_PIN_CFG", "fabo-mpu9250_8h.html#afb486cae6b98cb195ed567bbd2e7efb2", null ],
     [ "MPU9250_POWER_MNG1_REG", "fabo-mpu9250_8h.html#a908a3a98a3c3dc346308fab64a29d40b", null ],
     [ "MPU9250_POWER_MNG2_REG", "fabo-mpu9250_8h.html#a7044a3708e12ad637ee36f6f9cbcf85b", null ],
     [ "MPU9250_ACCEL_X_MSB_REG", "fabo-mpu9250_8h.html#a383d5741cf9e84013f0b63f6ddfdff5e", null ],

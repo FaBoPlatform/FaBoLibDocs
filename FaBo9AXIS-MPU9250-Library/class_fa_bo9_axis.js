@@ -9,5 +9,5 @@ var class_fa_bo9_axis =
     [ "readTemperature", "class_fa_bo9_axis.html#a9b44def1e52d4e48be0b8982c48efc16", null ],
     [ "readMagnetXYZ", "class_fa_bo9_axis.html#a4a97f143932be5c8495b55eec687b4a9", null ],
     [ "writeI2c", "class_fa_bo9_axis.html#ac256414cbb9d843b3133a5c86f952819", null ],
-    [ "readI2c", "class_fa_bo9_axis.html#a0992e5833b9c2ae9d6901ca12ac569c2", null ]
+    [ "readI2c", "class_fa_bo9_axis.html#ae1173bfd3621eaa654a07824b85e1329", null ]
 ];

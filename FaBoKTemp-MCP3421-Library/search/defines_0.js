@@ -12,8 +12,5 @@ var searchData=
   ['mcp3421_5fconfig_5frate_5f60sps',['MCP3421_CONFIG_RATE_60SPS',['../fabo-mcp3421_8h.html#a725b91fdc67d2252554527bc708cfaf8',1,'fabo-mcp3421.h']]],
   ['mcp3421_5fconfig_5frdy_5foff',['MCP3421_CONFIG_RDY_OFF',['../fabo-mcp3421_8h.html#a82e2bd88b0e6ba4af6c5e857c210baae',1,'fabo-mcp3421.h']]],
   ['mcp3421_5fconfig_5frdy_5fon',['MCP3421_CONFIG_RDY_ON',['../fabo-mcp3421_8h.html#ae0aef300d8ccd719c2304493fcc8b495',1,'fabo-mcp3421.h']]],
-  ['mcp3421_5fconfig_5freg',['MCP3421_CONFIG_REG',['../fabo-mcp3421_8h.html#a518e7ca21c453d58edebea8e830a46d5',1,'fabo-mcp3421.h']]],
-  ['mcp3421_5fdevice',['MCP3421_DEVICE',['../fabo-mcp3421_8h.html#af4aad8e863e4b265ee03449b39ced0c0',1,'fabo-mcp3421.h']]],
-  ['mcp3421_5fdevice_5freg',['MCP3421_DEVICE_REG',['../fabo-mcp3421_8h.html#a00bb72fcf848930d988e4f0d78bbdd52',1,'fabo-mcp3421.h']]],
   ['mcp3421_5fslave_5faddress',['MCP3421_SLAVE_ADDRESS',['../fabo-mcp3421_8h.html#a2d0249f6b9ad2509e181c32b3f4ef1e7',1,'fabo-mcp3421.h']]]
 ];

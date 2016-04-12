@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['searchdevice',['searchDevice',['../class_fa_bo_k_temp.html#a09bb7f5b17248fe24b9cc85237b1acee',1,'FaBoKTemp']]]
+  ['writei2c',['writeI2c',['../class_fa_bo_k_temp.html#a7e89bfb8da184f4ea434627224dbf4a4',1,'FaBoKTemp']]]
 ];

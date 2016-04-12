@@ -2,8 +2,6 @@ var fabo_mcp3421_8h =
 [
     [ "FaBoKTemp", "class_fa_bo_k_temp.html", "class_fa_bo_k_temp" ],
     [ "MCP3421_SLAVE_ADDRESS", "fabo-mcp3421_8h.html#a2d0249f6b9ad2509e181c32b3f4ef1e7", null ],
-    [ "MCP3421_CONFIG_REG", "fabo-mcp3421_8h.html#a518e7ca21c453d58edebea8e830a46d5", null ],
-    [ "MCP3421_DEVICE_REG", "fabo-mcp3421_8h.html#a00bb72fcf848930d988e4f0d78bbdd52", null ],
     [ "MCP3421_CONFIG_RDY_ON", "fabo-mcp3421_8h.html#ae0aef300d8ccd719c2304493fcc8b495", null ],
     [ "MCP3421_CONFIG_RDY_OFF", "fabo-mcp3421_8h.html#a82e2bd88b0e6ba4af6c5e857c210baae", null ],
     [ "MCP3421_CONFIG_CONV_CONTINUOUS", "fabo-mcp3421_8h.html#ab83106d5717814fc12f51d5f47d8cbf9", null ],
@@ -15,6 +13,5 @@ var fabo_mcp3421_8h =
     [ "MCP3421_CONFIG_GAIN_X1", "fabo-mcp3421_8h.html#aae72f0d8e30c347eaa87074a9f8b323a", null ],
     [ "MCP3421_CONFIG_GAIN_X2", "fabo-mcp3421_8h.html#a294be1cefbe25d6bf6561260644ab1fd", null ],
     [ "MCP3421_CONFIG_GAIN_X4", "fabo-mcp3421_8h.html#ad81aae0a1c892a88b68cd209f7338827", null ],
-    [ "MCP3421_CONFIG_GAIN_X8", "fabo-mcp3421_8h.html#a8218712c9201f7190b73c4a4a0cb5d11", null ],
-    [ "MCP3421_DEVICE", "fabo-mcp3421_8h.html#af4aad8e863e4b265ee03449b39ced0c0", null ]
+    [ "MCP3421_CONFIG_GAIN_X8", "fabo-mcp3421_8h.html#a8218712c9201f7190b73c4a4a0cb5d11", null ]
 ];
