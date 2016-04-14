@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['isdoubletap',['isDoubleTap',['../class_fa_bo3_axis.html#afd7206e6a037f857232ad81b7e772a56',1,'FaBo3Axis']]],
-  ['issingletap',['isSingleTap',['../class_fa_bo3_axis.html#a356720c81607df6489540542187c146c',1,'FaBo3Axis']]]
+  ['fabo3axis',['FaBo3Axis',['../class_fa_bo3_axis.html#a91d580ed3d79397390d6c69fe37a1c3d',1,'FaBo3Axis']]]
 ];

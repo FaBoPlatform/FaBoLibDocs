@@ -1,5 +1,6 @@
 var class_fa_bo3_axis =
 [
+    [ "FaBo3Axis", "class_fa_bo3_axis.html#a91d580ed3d79397390d6c69fe37a1c3d", null ],
     [ "searchDevice", "class_fa_bo3_axis.html#a9d7c969444455d57e15644d5008a2b61", null ],
     [ "configuration", "class_fa_bo3_axis.html#ab65cb797f19429ede37a3d82069056f2", null ],
     [ "powerOn", "class_fa_bo3_axis.html#a1a07abb3f07f659925784f42a4520a8b", null ],
