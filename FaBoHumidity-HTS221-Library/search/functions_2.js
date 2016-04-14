@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gethumidity',['getHumidity',['../class_fa_bo_humidity___h_t_s221.html#adb999540e7ba0fdff5c1bcf513621a3a',1,'FaBoHumidity_HTS221']]],
-  ['gettemperature',['getTemperature',['../class_fa_bo_humidity___h_t_s221.html#abfd4916fea013847332232a646333d93',1,'FaBoHumidity_HTS221']]]
+  ['fabohumidity_5fhts221',['FaBoHumidity_HTS221',['../class_fa_bo_humidity___h_t_s221.html#ab90b9366962f1a9ef50c9391d22e8634',1,'FaBoHumidity_HTS221']]]
 ];
