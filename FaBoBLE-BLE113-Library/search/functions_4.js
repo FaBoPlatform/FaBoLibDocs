@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['hex_5foutput',['hex_output',['../class_fa_bo_b_l_e.html#a0413e22bf562725968284a2d6a8cf582',1,'FaBoBLE']]]
+  ['init',['init',['../class_fa_bo_b_l_e.html#af585d1e2e91042cbf23805dac975a9f0',1,'FaBoBLE']]],
+  ['isadvertising',['isAdvertising',['../class_fa_bo_b_l_e.html#a8c31bbb3917c4db0d3a83de82137991d',1,'FaBoBLE']]],
+  ['isscanning',['isScanning',['../class_fa_bo_b_l_e.html#a06e45506478d6b3c3e3a40cabe7c2344',1,'FaBoBLE']]]
 ];

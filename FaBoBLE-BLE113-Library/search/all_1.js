@@ -6,6 +6,6 @@ var searchData=
   ['blebrick',['bleBrick',['../fabo-ble113_8cpp.html#aeb152f2d6cac609f2f55cc0ca45e0794',1,'fabo-ble113.cpp']]],
   ['bond',['bond',['../struct_fa_bo_b_l_e_1_1_scan_data.html#a2efba22c495fbaa8297f6f48fd908d6f',1,'FaBoBLE::ScanData']]],
   ['broken',['broken',['../class_fa_bo_b_l_e.html#a5f9b1fb36d1e809dc407f45332ab7836',1,'FaBoBLE']]],
-  ['buff_5fsize',['buff_size',['../class_fabo_queue.html#ad7e519a7ecf7767df03e09264b6f1497',1,'FaboQueue::buff_size()'],['../fabo-ble113_8h.html#a6c7cd32e1bac137f05e4a752b4ad10af',1,'BUFF_SIZE():&#160;fabo-ble113.h']]],
+  ['buff_5fsize',['BUFF_SIZE',['../fabo-ble113_8h.html#a6c7cd32e1bac137f05e4a752b4ad10af',1,'fabo-ble113.h']]],
   ['buffcount',['buffCount',['../class_fa_bo_b_l_e.html#a5c7b660acf82988b4518aff7b19d1d97',1,'FaBoBLE']]]
 ];
