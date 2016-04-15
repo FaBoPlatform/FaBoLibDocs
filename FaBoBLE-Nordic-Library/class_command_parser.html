@@ -113,6 +113,9 @@ $(document).ready(function(){initNavTree('class_command_parser.html','');});
 </div><!--header-->
 <div class="contents">
 
+<p>Parsing the received command.  
+ <a href="class_command_parser.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -120,8 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a705952d3850a68c75847f1138fdd8070"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a705952d3850a68c75847f1138fdd8070">CommandParser</a> (SoftwareSerial *<a class="el" href="class_command_parser.html#afa211809143854a0046172b01fc430c0">serial</a>)</td></tr>
 <tr class="separator:a705952d3850a68c75847f1138fdd8070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14397e6b281f8896229bc91fec3de3ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a14397e6b281f8896229bc91fec3de3ca">tick</a> ()</td></tr>
+<tr class="memdesc:a14397e6b281f8896229bc91fec3de3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Receive Data.  <a href="#a14397e6b281f8896229bc91fec3de3ca">More...</a><br /></td></tr>
 <tr class="separator:a14397e6b281f8896229bc91fec3de3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fdd3c7a813c6f45a5debe9e76641f5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a8fdd3c7a813c6f45a5debe9e76641f5d">getCommand</a> (<a class="el" href="struct_nordic_b_l_e_1_1_command_data.html">NordicBLE::CommandData</a> &amp;out)</td></tr>
+<tr class="memdesc:a8fdd3c7a813c6f45a5debe9e76641f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Read data.  <a href="#a8fdd3c7a813c6f45a5debe9e76641f5d">More...</a><br /></td></tr>
 <tr class="separator:a8fdd3c7a813c6f45a5debe9e76641f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -133,6 +138,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aff86db2bbad4de43fb7a61811a795532"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#aff86db2bbad4de43fb7a61811a795532">eod</a> = false</td></tr>
 <tr class="separator:aff86db2bbad4de43fb7a61811a795532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d97116b75c3dc3960446c7864caebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_nordic_b_l_e_1_1_command_data.html">NordicBLE::CommandData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a93d97116b75c3dc3960446c7864caebc">dataBuff</a> [<a class="el" href="_command_parser_8h.html#a6c7cd32e1bac137f05e4a752b4ad10af">BUFF_SIZE</a>]</td></tr>
+<tr class="memdesc:a93d97116b75c3dc3960446c7864caebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command Data.  <a href="#a93d97116b75c3dc3960446c7864caebc">More...</a><br /></td></tr>
 <tr class="separator:a93d97116b75c3dc3960446c7864caebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a074d59892040db6764646a9dc55d5bf3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a074d59892040db6764646a9dc55d5bf3">dataCount</a> = 0</td></tr>
 <tr class="separator:a074d59892040db6764646a9dc55d5bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,8 +150,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a70f52cbc848eb2b4d93d1a1bb86c50fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00014">14</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<div class="textblock"><p>Parsing the received command. </p>
+
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00031">31</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a705952d3850a68c75847f1138fdd8070"></a>
 <div class="memitem">
@@ -161,7 +168,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8cpp_source.html#l00009">9</a> of file <a class="el" href="_command_parser_8cpp_source.html">CommandParser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8cpp_source.html#l00022">22</a> of file <a class="el" href="_command_parser_8cpp_source.html">CommandParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -180,7 +187,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8cpp_source.html#l00015">15</a> of file <a class="el" href="_command_parser_8cpp_source.html">CommandParser.cpp</a>.</p>
+<p>Read Receive Data. </p>
+
+<p>Definition at line <a class="el" href="_command_parser_8cpp_source.html#l00030">30</a> of file <a class="el" href="_command_parser_8cpp_source.html">CommandParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -198,7 +207,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8cpp_source.html#l00075">75</a> of file <a class="el" href="_command_parser_8cpp_source.html">CommandParser.cpp</a>.</p>
+<p>Get Read data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">&amp;out</td><td>: Read Data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_command_parser_8cpp_source.html#l00094">94</a> of file <a class="el" href="_command_parser_8cpp_source.html">CommandParser.cpp</a>.</p>
 
 </div>
 </div>
@@ -221,7 +238,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00020">20</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00037">37</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -243,7 +260,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00022">22</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00039">39</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +282,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00023">23</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00040">40</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +304,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00024">24</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Command Data. </p>
+
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00042">42</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +328,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00025">25</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00043">43</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -331,7 +350,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00026">26</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00044">44</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -353,7 +372,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00027">27</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00045">45</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
@@ -375,7 +394,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00028">28</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
+<p>Definition at line <a class="el" href="_command_parser_8h_source.html#l00046">46</a> of file <a class="el" href="_command_parser_8h_source.html">CommandParser.h</a>.</p>
 
 </div>
 </div>
