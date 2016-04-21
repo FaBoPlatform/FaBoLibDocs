@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['searchdevice',['searchDevice',['../class_fa_bo9_axis.html#a744b19515a2e890e3ab7b91a384de9ee',1,'FaBo9Axis']]]
+  ['fabo9axis',['FaBo9Axis',['../class_fa_bo9_axis.html#a93d84bd86404e82ecffc6c76391366a7',1,'FaBo9Axis']]]
 ];

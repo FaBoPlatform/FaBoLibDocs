@@ -106,58 +106,138 @@ $(document).ready(function(){initNavTree('class_fa_bo9_axis.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_fa_bo9_axis-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FaBo9Axis Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>mpu9250 Control  
+<p>FaBo 9Axis I2C Controll class.  
  <a href="class_fa_bo9_axis.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="fabo-mpu9250_8h_source.html">fabo-mpu9250.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a93d84bd86404e82ecffc6c76391366a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a93d84bd86404e82ecffc6c76391366a7">FaBo9Axis</a> (uint8_t addr=<a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#a3f057f2009965f70f86c87c95ccd5667">MPU9250_SLAVE_ADDRESS</a>)</td></tr>
+<tr class="memdesc:a93d84bd86404e82ecffc6c76391366a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a93d84bd86404e82ecffc6c76391366a7">More...</a><br /></td></tr>
+<tr class="separator:a93d84bd86404e82ecffc6c76391366a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7569bd9ce11da39fdb5834d712e2dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#adb7569bd9ce11da39fdb5834d712e2dc">begin</a> (void)</td></tr>
+<tr class="memdesc:adb7569bd9ce11da39fdb5834d712e2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin Device.  <a href="#adb7569bd9ce11da39fdb5834d712e2dc">More...</a><br /></td></tr>
+<tr class="separator:adb7569bd9ce11da39fdb5834d712e2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a744b19515a2e890e3ab7b91a384de9ee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a744b19515a2e890e3ab7b91a384de9ee">searchDevice</a> (void)</td></tr>
-<tr class="memdesc:a744b19515a2e890e3ab7b91a384de9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serch Device mpu9250 and ak8963.  <a href="#a744b19515a2e890e3ab7b91a384de9ee">More...</a><br /></td></tr>
+<tr class="memdesc:a744b19515a2e890e3ab7b91a384de9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search Device.  <a href="#a744b19515a2e890e3ab7b91a384de9ee">More...</a><br /></td></tr>
 <tr class="separator:a744b19515a2e890e3ab7b91a384de9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144ebcd9ec3b986b985cbe7498344804"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a144ebcd9ec3b986b985cbe7498344804">configuration</a> (void)</td></tr>
-<tr class="memdesc:a144ebcd9ec3b986b985cbe7498344804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Config.  <a href="#a144ebcd9ec3b986b985cbe7498344804">More...</a><br /></td></tr>
-<tr class="separator:a144ebcd9ec3b986b985cbe7498344804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03967153891d25445a4102ec62a26432"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a03967153891d25445a4102ec62a26432">powerOn</a> (void)</td></tr>
-<tr class="memdesc:a03967153891d25445a4102ec62a26432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power On.  <a href="#a03967153891d25445a4102ec62a26432">More...</a><br /></td></tr>
-<tr class="separator:a03967153891d25445a4102ec62a26432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7506908b789b332d7d3dfa7745bb04c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a7506908b789b332d7d3dfa7745bb04c0">reset</a> (void)</td></tr>
-<tr class="memdesc:a7506908b789b332d7d3dfa7745bb04c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">MPU9250 Reset.  <a href="#a7506908b789b332d7d3dfa7745bb04c0">More...</a><br /></td></tr>
-<tr class="separator:a7506908b789b332d7d3dfa7745bb04c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a4b6b318d6f2895853a58000d4e71ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a9a4b6b318d6f2895853a58000d4e71ef">readAccelXYZ</a> (int *x, int *y, int *z)</td></tr>
-<tr class="memdesc:a9a4b6b318d6f2895853a58000d4e71ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Accell Value.  <a href="#a9a4b6b318d6f2895853a58000d4e71ef">More...</a><br /></td></tr>
-<tr class="separator:a9a4b6b318d6f2895853a58000d4e71ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12d4e1c47ff056b24fa770ff729a7c5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a12d4e1c47ff056b24fa770ff729a7c5b">readGyroXYZ</a> (int *x, int *y, int *z)</td></tr>
-<tr class="memdesc:a12d4e1c47ff056b24fa770ff729a7c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Gyroscope Value.  <a href="#a12d4e1c47ff056b24fa770ff729a7c5b">More...</a><br /></td></tr>
-<tr class="separator:a12d4e1c47ff056b24fa770ff729a7c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b44def1e52d4e48be0b8982c48efc16"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a9b44def1e52d4e48be0b8982c48efc16">readTemperature</a> ()</td></tr>
-<tr class="memdesc:a9b44def1e52d4e48be0b8982c48efc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Temperature Value.  <a href="#a9b44def1e52d4e48be0b8982c48efc16">More...</a><br /></td></tr>
-<tr class="separator:a9b44def1e52d4e48be0b8982c48efc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a97f143932be5c8495b55eec687b4a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a4a97f143932be5c8495b55eec687b4a9">readMagnetXYZ</a> (int *x, int *y, int *z)</td></tr>
-<tr class="memdesc:a4a97f143932be5c8495b55eec687b4a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Magnetometer Value.  <a href="#a4a97f143932be5c8495b55eec687b4a9">More...</a><br /></td></tr>
-<tr class="separator:a4a97f143932be5c8495b55eec687b4a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2ceefc76e45905e12a098f321b360e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a7e2ceefc76e45905e12a098f321b360e">configMPU9250</a> (uint8_t gfs=<a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#a8e3b612b7e2584ab8f7517068fc8bc13">MPU9250_GFS_250</a>, uint8_t afs=<a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#a15dc6952be92884a3368aa83b1c2b682">MPU9250_AFS_2G</a>)</td></tr>
+<tr class="memdesc:a7e2ceefc76e45905e12a098f321b360e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure MPU-9250.  <a href="#a7e2ceefc76e45905e12a098f321b360e">More...</a><br /></td></tr>
+<tr class="separator:a7e2ceefc76e45905e12a098f321b360e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ca3ed11e658772d73617332df3d2d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a42ca3ed11e658772d73617332df3d2d0">configAK8963</a> (uint8_t mode=<a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#aa1bab319a035bf3d39cda173ee0c6079">AK8963_MODE_C8HZ</a>, uint8_t mfs=<a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#af2bca53d4ff8e19846c777600a86def9">AK8963_BIT_16</a>)</td></tr>
+<tr class="memdesc:a42ca3ed11e658772d73617332df3d2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure AK8963.  <a href="#a42ca3ed11e658772d73617332df3d2d0">More...</a><br /></td></tr>
+<tr class="separator:a42ca3ed11e658772d73617332df3d2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebd0b80f0cb504a631950bc74629458"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a6ebd0b80f0cb504a631950bc74629458">checkDataReady</a> ()</td></tr>
+<tr class="memdesc:a6ebd0b80f0cb504a631950bc74629458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check data ready.  <a href="#a6ebd0b80f0cb504a631950bc74629458">More...</a><br /></td></tr>
+<tr class="separator:a6ebd0b80f0cb504a631950bc74629458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9940d1f74ef3694c50b54da35b0f2b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#af9940d1f74ef3694c50b54da35b0f2b1">readAccelXYZ</a> (float *ax, float *ay, float *az)</td></tr>
+<tr class="memdesc:af9940d1f74ef3694c50b54da35b0f2b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read accelerometer.  <a href="#af9940d1f74ef3694c50b54da35b0f2b1">More...</a><br /></td></tr>
+<tr class="separator:af9940d1f74ef3694c50b54da35b0f2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada14a4408f1addfcf4596179c8656c5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#ada14a4408f1addfcf4596179c8656c5d">readGyroXYZ</a> (float *gx, float *gy, float *gz)</td></tr>
+<tr class="memdesc:ada14a4408f1addfcf4596179c8656c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read gyro.  <a href="#ada14a4408f1addfcf4596179c8656c5d">More...</a><br /></td></tr>
+<tr class="separator:ada14a4408f1addfcf4596179c8656c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5867b784e9a54dbb854e69499cb2d789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a5867b784e9a54dbb854e69499cb2d789">readMagnetXYZ</a> (float *mx, float *my, float *mz)</td></tr>
+<tr class="memdesc:a5867b784e9a54dbb854e69499cb2d789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read magneto.  <a href="#a5867b784e9a54dbb854e69499cb2d789">More...</a><br /></td></tr>
+<tr class="separator:a5867b784e9a54dbb854e69499cb2d789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2c970fdef8dbdb04da909468503be7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a6c2c970fdef8dbdb04da909468503be7">readTemperature</a> (float *temperature)</td></tr>
+<tr class="memdesc:a6c2c970fdef8dbdb04da909468503be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read temperature.  <a href="#a6c2c970fdef8dbdb04da909468503be7">More...</a><br /></td></tr>
+<tr class="separator:a6c2c970fdef8dbdb04da909468503be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02df1058468c21a38b3da6e49496a611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a02df1058468c21a38b3da6e49496a611">dumpConfig</a> (void)</td></tr>
+<tr class="separator:a02df1058468c21a38b3da6e49496a611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac256414cbb9d843b3133a5c86f952819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#ac256414cbb9d843b3133a5c86f952819">writeI2c</a> (byte address, byte register_addr, byte value)</td></tr>
-<tr class="memdesc:ac256414cbb9d843b3133a5c86f952819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#ac256414cbb9d843b3133a5c86f952819">More...</a><br /></td></tr>
-<tr class="separator:ac256414cbb9d843b3133a5c86f952819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1173bfd3621eaa654a07824b85e1329"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#ae1173bfd3621eaa654a07824b85e1329">readI2c</a> (int address, byte register_addr, int num, byte *buf)</td></tr>
-<tr class="memdesc:ae1173bfd3621eaa654a07824b85e1329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#ae1173bfd3621eaa654a07824b85e1329">More...</a><br /></td></tr>
-<tr class="separator:ae1173bfd3621eaa654a07824b85e1329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a703221f60faed9b194deaac21e637b2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a703221f60faed9b194deaac21e637b2f">writeI2c</a> (byte address, uint8_t register_addr, uint8_t data)</td></tr>
+<tr class="memdesc:a703221f60faed9b194deaac21e637b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C.  <a href="#a703221f60faed9b194deaac21e637b2f">More...</a><br /></td></tr>
+<tr class="separator:a703221f60faed9b194deaac21e637b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903934334d25a3c2c6ed4b167fb50d2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a903934334d25a3c2c6ed4b167fb50d2e">readI2c</a> (uint8_t address, uint8_t register_addr, uint8_t num, uint8_t *buffer)</td></tr>
+<tr class="memdesc:a903934334d25a3c2c6ed4b167fb50d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C.  <a href="#a903934334d25a3c2c6ed4b167fb50d2e">More...</a><br /></td></tr>
+<tr class="separator:a903934334d25a3c2c6ed4b167fb50d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a348a8f6d69dbdb95be6884aa5971499c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a348a8f6d69dbdb95be6884aa5971499c">_mpu9250addr</a></td></tr>
+<tr class="separator:a348a8f6d69dbdb95be6884aa5971499c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3e385564cddb4f2b5d6aa018009a20"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a2b3e385564cddb4f2b5d6aa018009a20">_gres</a></td></tr>
+<tr class="separator:a2b3e385564cddb4f2b5d6aa018009a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f1f1e80b64b7dfe0160d3a97dc3a79"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#ab4f1f1e80b64b7dfe0160d3a97dc3a79">_ares</a></td></tr>
+<tr class="separator:ab4f1f1e80b64b7dfe0160d3a97dc3a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c163ca8898f1c1886a229534450165"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a80c163ca8898f1c1886a229534450165">_mres</a></td></tr>
+<tr class="separator:a80c163ca8898f1c1886a229534450165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24af47f15b5f247fcadc54ff27b508d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a24af47f15b5f247fcadc54ff27b508d9">_magXcoef</a></td></tr>
+<tr class="separator:a24af47f15b5f247fcadc54ff27b508d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a456d8689bbc6753fb1f40032f3c26a64"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a456d8689bbc6753fb1f40032f3c26a64">_magYcoef</a></td></tr>
+<tr class="separator:a456d8689bbc6753fb1f40032f3c26a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c15d7373abe2adde3b1a89a3a6a9456"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo9_axis.html#a4c15d7373abe2adde3b1a89a3a6a9456">_magZcoef</a></td></tr>
+<tr class="separator:a4c15d7373abe2adde3b1a89a3a6a9456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>mpu9250 Control </p>
+<div class="textblock"><p>FaBo 9Axis I2C Controll class. </p>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8h_source.html#l00152">152</a> of file <a class="el" href="fabo-mpu9250_8h_source.html">fabo-mpu9250.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00192">192</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a93d84bd86404e82ecffc6c76391366a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaBo9Axis::FaBo9Axis </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>addr</em> = <code><a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#a3f057f2009965f70f86c87c95ccd5667">MPU9250_SLAVE_ADDRESS</a></code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>MPU-9250 I2C slave address </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00020">20</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adb7569bd9ce11da39fdb5834d712e2dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FaBo9Axis::begin </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Begin Device. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>normaly done </td></tr>
+    <tr><td class="paramname">false</td><td>device error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00030">30</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a744b19515a2e890e3ab7b91a384de9ee"></a>
 <div class="memitem">
 <div class="memproto">
@@ -172,100 +252,140 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Serch Device mpu9250 and ak8963. </p>
+<p>Search Device. </p>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">true</td><td>: Found </td></tr>
-    <tr><td class="paramname">false</td><td>: Not Found </td></tr>
+    <tr><td class="paramname">true</td><td>device connected </td></tr>
+    <tr><td class="paramname">false</td><td>device error </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00014">14</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00045">45</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a144ebcd9ec3b986b985cbe7498344804"></a>
+<a class="anchor" id="a7e2ceefc76e45905e12a098f321b360e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FaBo9Axis::configuration </td>
+          <td class="memname">void FaBo9Axis::configMPU9250 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>gfs</em> = <code><a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#a8e3b612b7e2584ab8f7517068fc8bc13">MPU9250_GFS_250</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>afs</em> = <code><a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#a15dc6952be92884a3368aa83b1c2b682">MPU9250_AFS_2G</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure MPU-9250. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gfs</td><td>Gyro Full Scale Select(default:MPU9250_GFS_250[+250dps]) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">afs</td><td>Accel Full Scale Select(default:MPU9250_AFS_2G[2g]) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00060">60</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a42ca3ed11e658772d73617332df3d2d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBo9Axis::configAK8963 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mode</em> = <code><a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#aa1bab319a035bf3d39cda173ee0c6079">AK8963_MODE_C8HZ</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mfs</em> = <code><a class="el" href="_fa_bo9_axis___m_p_u9250_8h.html#af2bca53d4ff8e19846c777600a86def9">AK8963_BIT_16</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configure AK8963. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Magneto Mode Select(default:AK8963_MODE_C8HZ[Continous 8Hz]) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mfs</td><td>Magneto Scale Select(default:AK8963_BIT_16[16bit]) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00127">127</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ebd0b80f0cb504a631950bc74629458"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FaBo9Axis::checkDataReady </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set Config. </p>
+<p>Check data ready. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>data is ready </td></tr>
+    <tr><td class="paramname">false</td><td>data is not ready </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00029">29</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a03967153891d25445a4102ec62a26432"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBo9Axis::powerOn </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Power On. </p>
-
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00049">49</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00166">166</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7506908b789b332d7d3dfa7745bb04c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBo9Axis::reset </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>MPU9250 Reset. </p>
-
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00059">59</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9a4b6b318d6f2895853a58000d4e71ef"></a>
+<a class="anchor" id="af9940d1f74ef3694c50b54da35b0f2b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void FaBo9Axis::readAccelXYZ </td>
           <td>(</td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>ax</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>ay</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>az</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -275,41 +395,41 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read Accell Value. </p>
+<p>Read accelerometer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">*x</td><td>: Accell X value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*y</td><td>: Accell Y value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*z</td><td>: Accell Z value </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">ax</td><td>X-accel(g) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">ay</td><td>Y-accel(g) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">az</td><td>Z-accel(g) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00070">70</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00182">182</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a12d4e1c47ff056b24fa770ff729a7c5b"></a>
+<a class="anchor" id="ada14a4408f1addfcf4596179c8656c5d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void FaBo9Axis::readGyroXYZ </td>
           <td>(</td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>gx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>gy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>gz</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -319,61 +439,41 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read Gyroscope Value. </p>
+<p>Read gyro. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">*x</td><td>: Gyro X value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*y</td><td>: Gyro Y value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*z</td><td>: Gyro Z value </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">gx</td><td>X-gyro(degrees/sec) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">gy</td><td>Y-gyro(degrees/sec) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">gz</td><td>Z-gyro(degrees/sec) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00086">86</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00200">200</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9b44def1e52d4e48be0b8982c48efc16"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t FaBo9Axis::readTemperature </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read Temperature Value. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint16_t : Temperature value </dd></dl>
-
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00100">100</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4a97f143932be5c8495b55eec687b4a9"></a>
+<a class="anchor" id="a5867b784e9a54dbb854e69499cb2d789"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void FaBo9Axis::readMagnetXYZ </td>
           <td>(</td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>mx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>my</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>mz</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -383,21 +483,65 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read Magnetometer Value. </p>
+<p>Read magneto. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">*x</td><td>: Magnet X value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*y</td><td>: Magnet Y value </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*z</td><td>: Magnet Z value </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">mx</td><td>X-magneto(uT) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">my</td><td>Y-magneto(uT) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">mz</td><td>Z-magneto(uT) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00114">114</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00218">218</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac256414cbb9d843b3133a5c86f952819"></a>
+<a class="anchor" id="a6c2c970fdef8dbdb04da909468503be7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBo9Axis::readTemperature </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>temperature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read temperature. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">temperature</td><td>temperature(degrees C) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00240">240</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a02df1058468c21a38b3da6e49496a611"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBo9Axis::dumpConfig </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00110">110</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a703221f60faed9b194deaac21e637b2f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -413,14 +557,14 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>register_addr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -435,20 +579,21 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Write I2C Data. </p>
+<p>Write I2C. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: Write Register Address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>: Write Data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>I2C slave address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>write data </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00133">133</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00256">256</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae1173bfd3621eaa654a07824b85e1329"></a>
+<a class="anchor" id="a903934334d25a3c2c6ed4b167fb50d2e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -458,26 +603,26 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void FaBo9Axis::readI2c </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>address</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>register_addr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>num</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte *&#160;</td>
-          <td class="paramname"><em>buf</em>&#160;</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -492,24 +637,179 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Read I2C Data. </p>
+<p>Read I2C. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>: slave address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>: Data Length </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">*buf</td><td>: Read Data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>I2C slave address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>read length </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>read data </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-mpu9250_8cpp_source.html#l00148">148</a> of file <a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html#l00270">270</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a348a8f6d69dbdb95be6884aa5971499c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBo9Axis::_mpu9250addr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00206">206</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b3e385564cddb4f2b5d6aa018009a20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FaBo9Axis::_gres</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00207">207</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4f1f1e80b64b7dfe0160d3a97dc3a79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FaBo9Axis::_ares</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00207">207</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80c163ca8898f1c1886a229534450165"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FaBo9Axis::_mres</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00207">207</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a24af47f15b5f247fcadc54ff27b508d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FaBo9Axis::_magXcoef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00208">208</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a456d8689bbc6753fb1f40032f3c26a64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FaBo9Axis::_magYcoef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00208">208</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c15d7373abe2adde3b1a89a3a6a9456"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FaBo9Axis::_magZcoef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html#l00208">208</a> of file <a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="fabo-mpu9250_8h_source.html">fabo-mpu9250.h</a></li>
-<li><a class="el" href="fabo-mpu9250_8cpp_source.html">fabo-mpu9250.cpp</a></li>
+<li><a class="el" href="_fa_bo9_axis___m_p_u9250_8h_source.html">FaBo9Axis_MPU9250.h</a></li>
+<li><a class="el" href="_fa_bo9_axis___m_p_u9250_8cpp_source.html">FaBo9Axis_MPU9250.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

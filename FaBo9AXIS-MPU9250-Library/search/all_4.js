@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['poweron',['powerOn',['../class_fa_bo9_axis.html#a03967153891d25445a4102ec62a26432',1,'FaBo9Axis']]]
+  ['dumpconfig',['dumpConfig',['../class_fa_bo9_axis.html#a02df1058468c21a38b3da6e49496a611',1,'FaBo9Axis']]]
 ];

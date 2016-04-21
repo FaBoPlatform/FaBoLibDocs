@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['readaccelxyz',['readAccelXYZ',['../class_fa_bo9_axis.html#a9a4b6b318d6f2895853a58000d4e71ef',1,'FaBo9Axis']]],
-  ['readgyroxyz',['readGyroXYZ',['../class_fa_bo9_axis.html#a12d4e1c47ff056b24fa770ff729a7c5b',1,'FaBo9Axis']]],
-  ['readi2c',['readI2c',['../class_fa_bo9_axis.html#ae1173bfd3621eaa654a07824b85e1329',1,'FaBo9Axis']]],
-  ['readmagnetxyz',['readMagnetXYZ',['../class_fa_bo9_axis.html#a4a97f143932be5c8495b55eec687b4a9',1,'FaBo9Axis']]],
-  ['readtemperature',['readTemperature',['../class_fa_bo9_axis.html#a9b44def1e52d4e48be0b8982c48efc16',1,'FaBo9Axis']]],
-  ['reset',['reset',['../class_fa_bo9_axis.html#a7506908b789b332d7d3dfa7745bb04c0',1,'FaBo9Axis']]]
+  ['fabo9axis',['FaBo9Axis',['../class_fa_bo9_axis.html',1,'FaBo9Axis'],['../class_fa_bo9_axis.html#a93d84bd86404e82ecffc6c76391366a7',1,'FaBo9Axis::FaBo9Axis()']]],
+  ['fabo9axis_5fmpu9250_2ecpp',['FaBo9Axis_MPU9250.cpp',['../_fa_bo9_axis___m_p_u9250_8cpp.html',1,'']]],
+  ['fabo9axis_5fmpu9250_2eh',['FaBo9Axis_MPU9250.h',['../_fa_bo9_axis___m_p_u9250_8h.html',1,'']]]
 ];
