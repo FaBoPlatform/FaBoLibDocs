@@ -1,5 +1,5 @@
 var files =
 [
-    [ "fabo-mcp3421.cpp", "fabo-mcp3421_8cpp.html", null ],
-    [ "fabo-mcp3421.h", "fabo-mcp3421_8h.html", "fabo-mcp3421_8h" ]
+    [ "FaBoKTemp_MCP3421.cpp", "_fa_bo_k_temp___m_c_p3421_8cpp.html", null ],
+    [ "FaBoKTemp_MCP3421.h", "_fa_bo_k_temp___m_c_p3421_8h.html", "_fa_bo_k_temp___m_c_p3421_8h" ]
 ];

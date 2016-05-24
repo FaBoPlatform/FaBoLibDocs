@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('class_fa_bo_proximity.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>VCNL4010 Control.  
+<p>FaBo Proximity I2C Controll class.  
  <a href="class_fa_bo_proximity.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>&gt;</code></p>
@@ -121,56 +121,54 @@ $(document).ready(function(){initNavTree('class_fa_bo_proximity.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae4432807ebc3f6bcf9c0a14eed1fb345"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ae4432807ebc3f6bcf9c0a14eed1fb345">FaBoProximity</a> (uint8_t addr=<a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h.html#a6693bb3e243354a470739eebdac6968f">VCNL4010_SLAVE_ADDRESS</a>)</td></tr>
-<tr class="memdesc:ae4432807ebc3f6bcf9c0a14eed1fb345"><td class="mdescLeft">&#160;</td><td class="mdescRight">VCNL4010 processing Start.  <a href="#ae4432807ebc3f6bcf9c0a14eed1fb345">More...</a><br /></td></tr>
+<tr class="memdesc:ae4432807ebc3f6bcf9c0a14eed1fb345"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ae4432807ebc3f6bcf9c0a14eed1fb345">More...</a><br /></td></tr>
 <tr class="separator:ae4432807ebc3f6bcf9c0a14eed1fb345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c17458c6cf34f6462c7a3a57d27b50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ae6c17458c6cf34f6462c7a3a57d27b50">begin</a> (void)</td></tr>
+<tr class="memdesc:ae6c17458c6cf34f6462c7a3a57d27b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin Device.  <a href="#ae6c17458c6cf34f6462c7a3a57d27b50">More...</a><br /></td></tr>
+<tr class="separator:ae6c17458c6cf34f6462c7a3a57d27b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf1e8799c112f62a93a4b5634f94a3d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#aaf1e8799c112f62a93a4b5634f94a3d0">searchDevice</a> (void)</td></tr>
-<tr class="memdesc:aaf1e8799c112f62a93a4b5634f94a3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search Device VCNL4010.  <a href="#aaf1e8799c112f62a93a4b5634f94a3d0">More...</a><br /></td></tr>
+<tr class="memdesc:aaf1e8799c112f62a93a4b5634f94a3d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search Device.  <a href="#aaf1e8799c112f62a93a4b5634f94a3d0">More...</a><br /></td></tr>
 <tr class="separator:aaf1e8799c112f62a93a4b5634f94a3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac609bc3594f6fb6fbfe31f0f08e5d9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#acac609bc3594f6fb6fbfe31f0f08e5d9">readId</a> ()</td></tr>
-<tr class="memdesc:acac609bc3594f6fb6fbfe31f0f08e5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read product ID and product revision.  <a href="#acac609bc3594f6fb6fbfe31f0f08e5d9">More...</a><br /></td></tr>
-<tr class="separator:acac609bc3594f6fb6fbfe31f0f08e5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a335de98f9c431b560d077144bd9f4336"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a335de98f9c431b560d077144bd9f4336">configuration</a> (void)</td></tr>
-<tr class="memdesc:a335de98f9c431b560d077144bd9f4336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Config.  <a href="#a335de98f9c431b560d077144bd9f4336">More...</a><br /></td></tr>
+<tr class="memdesc:a335de98f9c431b560d077144bd9f4336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure Device.  <a href="#a335de98f9c431b560d077144bd9f4336">More...</a><br /></td></tr>
 <tr class="separator:a335de98f9c431b560d077144bd9f4336"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad37c2dbb2be50377567497974888dc2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ad37c2dbb2be50377567497974888dc2f">setCurrent</a> (uint8_t current)</td></tr>
-<tr class="memdesc:ad37c2dbb2be50377567497974888dc2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">LED Current Setting for Proximity.  <a href="#ad37c2dbb2be50377567497974888dc2f">More...</a><br /></td></tr>
-<tr class="separator:ad37c2dbb2be50377567497974888dc2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af564ad55a849f477c32ccd26b5398936"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#af564ad55a849f477c32ccd26b5398936">readCurrent</a> ()</td></tr>
-<tr class="memdesc:af564ad55a849f477c32ccd26b5398936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read LED Current for Proximity.  <a href="#af564ad55a849f477c32ccd26b5398936">More...</a><br /></td></tr>
-<tr class="separator:af564ad55a849f477c32ccd26b5398936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a095ea4cc16fc25ec5d19e7565e0da597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a095ea4cc16fc25ec5d19e7565e0da597">setCommand</a> (uint8_t command)</td></tr>
-<tr class="memdesc:a095ea4cc16fc25ec5d19e7565e0da597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Command Data.  <a href="#a095ea4cc16fc25ec5d19e7565e0da597">More...</a><br /></td></tr>
-<tr class="separator:a095ea4cc16fc25ec5d19e7565e0da597"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a791436454229592b77cd3016950d43a3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a791436454229592b77cd3016950d43a3">readCommand</a> (void)</td></tr>
-<tr class="memdesc:a791436454229592b77cd3016950d43a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Command Data.  <a href="#a791436454229592b77cd3016950d43a3">More...</a><br /></td></tr>
-<tr class="separator:a791436454229592b77cd3016950d43a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea0f0e5cc5b0f815a0db220927367bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a8ea0f0e5cc5b0f815a0db220927367bf">setProxRate</a> (uint8_t rate)</td></tr>
-<tr class="memdesc:a8ea0f0e5cc5b0f815a0db220927367bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Proximity Rate.  <a href="#a8ea0f0e5cc5b0f815a0db220927367bf">More...</a><br /></td></tr>
-<tr class="separator:a8ea0f0e5cc5b0f815a0db220927367bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3339b492de949f9384ec11ccb52e691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ac3339b492de949f9384ec11ccb52e691">setAmbiConfig</a> (uint8_t config)</td></tr>
-<tr class="memdesc:ac3339b492de949f9384ec11ccb52e691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Ambient Light Config.  <a href="#ac3339b492de949f9384ec11ccb52e691">More...</a><br /></td></tr>
-<tr class="separator:ac3339b492de949f9384ec11ccb52e691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1635967a9d9500ed1441fdd34abaa35e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a1635967a9d9500ed1441fdd34abaa35e">isProxDataReady</a> (void)</td></tr>
-<tr class="memdesc:a1635967a9d9500ed1441fdd34abaa35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect Proximity Data Ready.  <a href="#a1635967a9d9500ed1441fdd34abaa35e">More...</a><br /></td></tr>
-<tr class="separator:a1635967a9d9500ed1441fdd34abaa35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cc7465e7a9a0dc4a5ce68818ed17a96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a1cc7465e7a9a0dc4a5ce68818ed17a96">isAmbiDataReady</a> (void)</td></tr>
-<tr class="memdesc:a1cc7465e7a9a0dc4a5ce68818ed17a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect Ambient Light Data Ready.  <a href="#a1cc7465e7a9a0dc4a5ce68818ed17a96">More...</a><br /></td></tr>
-<tr class="separator:a1cc7465e7a9a0dc4a5ce68818ed17a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1afad2f49f38edcf86c6b1434159697"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ae1afad2f49f38edcf86c6b1434159697">readProxValue</a> (void)</td></tr>
-<tr class="memdesc:ae1afad2f49f38edcf86c6b1434159697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Proximity.  <a href="#ae1afad2f49f38edcf86c6b1434159697">More...</a><br /></td></tr>
-<tr class="separator:ae1afad2f49f38edcf86c6b1434159697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d9736e653604f92bdd432ea22538a85"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a8d9736e653604f92bdd432ea22538a85">readAmbiValue</a> (void)</td></tr>
-<tr class="memdesc:a8d9736e653604f92bdd432ea22538a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Command Data.  <a href="#a8d9736e653604f92bdd432ea22538a85">More...</a><br /></td></tr>
-<tr class="separator:a8d9736e653604f92bdd432ea22538a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58abd2330b90f0979b362582ac673010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a58abd2330b90f0979b362582ac673010">setCommand</a> (uint8_t config)</td></tr>
+<tr class="memdesc:a58abd2330b90f0979b362582ac673010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Command Register.  <a href="#a58abd2330b90f0979b362582ac673010">More...</a><br /></td></tr>
+<tr class="separator:a58abd2330b90f0979b362582ac673010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02112ef5abe930cdbf5ca2a3063a05a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a02112ef5abe930cdbf5ca2a3063a05a5">setProxRate</a> (uint8_t config)</td></tr>
+<tr class="memdesc:a02112ef5abe930cdbf5ca2a3063a05a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proximity Rate Register Setting.  <a href="#a02112ef5abe930cdbf5ca2a3063a05a5">More...</a><br /></td></tr>
+<tr class="separator:a02112ef5abe930cdbf5ca2a3063a05a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3877f217855728b2846c9e6d33f4a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a9f3877f217855728b2846c9e6d33f4a1">setLedCurrent</a> (uint8_t config)</td></tr>
+<tr class="memdesc:a9f3877f217855728b2846c9e6d33f4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">IR LED Current Setting.  <a href="#a9f3877f217855728b2846c9e6d33f4a1">More...</a><br /></td></tr>
+<tr class="separator:a9f3877f217855728b2846c9e6d33f4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad440119878bbd6279eee86a11f071115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ad440119878bbd6279eee86a11f071115">setAmbiParm</a> (uint8_t config)</td></tr>
+<tr class="memdesc:ad440119878bbd6279eee86a11f071115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambient Light Parameter Register Setting.  <a href="#ad440119878bbd6279eee86a11f071115">More...</a><br /></td></tr>
+<tr class="separator:ad440119878bbd6279eee86a11f071115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a090c6d1a070bebee565abd0e34882bc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a090c6d1a070bebee565abd0e34882bc5">checkProxReady</a> (void)</td></tr>
+<tr class="memdesc:a090c6d1a070bebee565abd0e34882bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check Proximity Data Ready.  <a href="#a090c6d1a070bebee565abd0e34882bc5">More...</a><br /></td></tr>
+<tr class="separator:a090c6d1a070bebee565abd0e34882bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7639e83f693f3287a01560dc1347ca6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#aa7639e83f693f3287a01560dc1347ca6">checkAmbiReady</a> (void)</td></tr>
+<tr class="memdesc:aa7639e83f693f3287a01560dc1347ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check Ambient Light Data Ready.  <a href="#aa7639e83f693f3287a01560dc1347ca6">More...</a><br /></td></tr>
+<tr class="separator:aa7639e83f693f3287a01560dc1347ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48f3fd191e9422ec5d42ee866a388d6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#af48f3fd191e9422ec5d42ee866a388d6">readProx</a> (void)</td></tr>
+<tr class="memdesc:af48f3fd191e9422ec5d42ee866a388d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Proximity Data.  <a href="#af48f3fd191e9422ec5d42ee866a388d6">More...</a><br /></td></tr>
+<tr class="separator:af48f3fd191e9422ec5d42ee866a388d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf82922edc5747af5f56825114f37137"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#abf82922edc5747af5f56825114f37137">readAmbi</a> (void)</td></tr>
+<tr class="memdesc:abf82922edc5747af5f56825114f37137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read Ambient Light Data.  <a href="#abf82922edc5747af5f56825114f37137">More...</a><br /></td></tr>
+<tr class="separator:abf82922edc5747af5f56825114f37137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499af03165c3488ca529db33b4c3ce9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a499af03165c3488ca529db33b4c3ce9f">dumpReg</a> (void)</td></tr>
+<tr class="separator:a499af03165c3488ca529db33b4c3ce9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#a3879d4b2f90962d3b9a92e3abee47a6b">writeI2c</a> (uint8_t address, uint8_t data)</td></tr>
-<tr class="memdesc:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#a3879d4b2f90962d3b9a92e3abee47a6b">More...</a><br /></td></tr>
+<tr class="memdesc:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C.  <a href="#a3879d4b2f90962d3b9a92e3abee47a6b">More...</a><br /></td></tr>
 <tr class="separator:a3879d4b2f90962d3b9a92e3abee47a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada0757884b05bf4485e6b925d5505026"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ada0757884b05bf4485e6b925d5505026">readI2c</a> (uint8_t address)</td></tr>
-<tr class="memdesc:ada0757884b05bf4485e6b925d5505026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#ada0757884b05bf4485e6b925d5505026">More...</a><br /></td></tr>
+<tr class="memdesc:ada0757884b05bf4485e6b925d5505026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C.  <a href="#ada0757884b05bf4485e6b925d5505026">More...</a><br /></td></tr>
 <tr class="separator:ada0757884b05bf4485e6b925d5505026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7903cf1a2ad5f6c2c668874fd1be43b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_proximity.html#ad7903cf1a2ad5f6c2c668874fd1be43b">print_byte</a> (uint8_t val)</td></tr>
+<tr class="separator:ad7903cf1a2ad5f6c2c668874fd1be43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -178,9 +176,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8bbe5683b4c696ee81b8bee2c2983fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>VCNL4010 Control. </p>
+<div class="textblock"><p>FaBo Proximity I2C Controll class. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00173">173</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00093">93</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae4432807ebc3f6bcf9c0a14eed1fb345"></a>
 <div class="memitem">
@@ -196,19 +194,40 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>VCNL4010 processing Start. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">addr</td><td>: VCNL4010 Slave Address </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Constructor. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00013">13</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00019">19</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae6c17458c6cf34f6462c7a3a57d27b50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FaBoProximity::begin </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Begin Device. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">true</td><td>normaly done </td></tr>
+    <tr><td class="paramname">false</td><td>device error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00029">29</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aaf1e8799c112f62a93a4b5634f94a3d0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -223,43 +242,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Search Device VCNL4010. </p>
+<p>Search Device. </p>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">true</td><td>: found </td></tr>
-    <tr><td class="paramname">false</td><td>: Not found </td></tr>
+    <tr><td class="paramname">true</td><td>device connected </td></tr>
+    <tr><td class="paramname">false</td><td>device error </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00023">23</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acac609bc3594f6fb6fbfe31f0f08e5d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoProximity::readId </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read product ID and product revision. </p>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">true</td><td>: found </td></tr>
-    <tr><td class="paramname">false</td><td>: Not found </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00036">36</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00043">43</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -277,138 +269,18 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set Config. </p>
+<p>Configure Device. </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00043">43</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad37c2dbb2be50377567497974888dc2f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBoProximity::setCurrent </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>current</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>LED Current Setting for Proximity. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">current</td><td>: IR LED current value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00059">59</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00054">54</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af564ad55a849f477c32ccd26b5398936"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoProximity::readCurrent </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read LED Current for Proximity. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : IR LED current value </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00070">70</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a095ea4cc16fc25ec5d19e7565e0da597"></a>
+<a class="anchor" id="a58abd2330b90f0979b362582ac673010"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void FaBoProximity::setCommand </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>command</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set Command Data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">command</td><td>: set command data </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00078">78</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a791436454229592b77cd3016950d43a3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t FaBoProximity::readCommand </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read Command Data. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : read command value </dd></dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00086">86</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8ea0f0e5cc5b0f815a0db220927367bf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBoProximity::setProxRate </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>rate</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set Proximity Rate. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">rate</td><td>: set rate value </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00094">94</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac3339b492de949f9384ec11ccb52e691"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBoProximity::setAmbiConfig </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>config</em></td><td>)</td>
@@ -417,24 +289,102 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set Ambient Light Config. </p>
+<p>Set Command Register. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>: set config data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>Configure Parameter </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00102">102</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00071">71</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1635967a9d9500ed1441fdd34abaa35e"></a>
+<a class="anchor" id="a02112ef5abe930cdbf5ca2a3063a05a5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FaBoProximity::isProxDataReady </td>
+          <td class="memname">void FaBoProximity::setProxRate </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Proximity Rate Register Setting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>Configure Parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00079">79</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9f3877f217855728b2846c9e6d33f4a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoProximity::setLedCurrent </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IR LED Current Setting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>Configure Parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00087">87</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad440119878bbd6279eee86a11f071115"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoProximity::setAmbiParm </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ambient Light Parameter Register Setting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>Configure Parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00095">95</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a090c6d1a070bebee565abd0e34882bc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FaBoProximity::checkProxReady </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -443,25 +393,25 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Detect Proximity Data Ready. </p>
+<p>Check Proximity Data Ready. </p>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">true</td><td>: Ready </td></tr>
-    <tr><td class="paramname">false</td><td>: Not Ready </td></tr>
+    <tr><td class="paramname">true</td><td>Data is Ready </td></tr>
+    <tr><td class="paramname">false</td><td>Data is Not Ready </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00111">111</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00104">104</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1cc7465e7a9a0dc4a5ce68818ed17a96"></a>
+<a class="anchor" id="aa7639e83f693f3287a01560dc1347ca6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FaBoProximity::isAmbiDataReady </td>
+          <td class="memname">bool FaBoProximity::checkAmbiReady </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -470,25 +420,25 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Detect Ambient Light Data Ready. </p>
+<p>Check Ambient Light Data Ready. </p>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">true</td><td>: Ready </td></tr>
-    <tr><td class="paramname">false</td><td>: Not Ready </td></tr>
+    <tr><td class="paramname">true</td><td>Data is Ready </td></tr>
+    <tr><td class="paramname">false</td><td>Data is Not Ready </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00123">123</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00116">116</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae1afad2f49f38edcf86c6b1434159697"></a>
+<a class="anchor" id="af48f3fd191e9422ec5d42ee866a388d6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t FaBoProximity::readProxValue </td>
+          <td class="memname">uint16_t FaBoProximity::readProx </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -497,19 +447,24 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read Proximity. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Proximity value </dd></dl>
+<p>Read Proximity Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Proximity Data </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00134">134</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00127">127</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8d9736e653604f92bdd432ea22538a85"></a>
+<a class="anchor" id="abf82922edc5747af5f56825114f37137"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t FaBoProximity::readAmbiValue </td>
+          <td class="memname">uint16_t FaBoProximity::readAmbi </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -518,10 +473,33 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read Command Data. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Ambient Light value </dd></dl>
+<p>Read Ambient Light Data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Ambient Light Data </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00146">146</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00139">139</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a499af03165c3488ca529db33b4c3ce9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoProximity::dumpReg </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00148">148</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -557,16 +535,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Write I2C Data. </p>
+<p>Write I2C. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>: Write Register Address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>: Write Data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>write data </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00161">161</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00176">176</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -592,16 +570,42 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Read I2C Data. </p>
+<p>Read I2C. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>register address </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>read data </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t : Read Data </dd></dl>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00173">173</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00188">188</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7903cf1a2ad5f6c2c668874fd1be43b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FaBoProximity::print_byte </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html#l00161">161</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8cpp_source.html">FaBoProximity_VCNL4010.cpp</a>.</p>
 
 </div>
 </div>
@@ -623,9 +627,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>set VCNL4010 Devise address </p>
 
-<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00191">191</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html#l00109">109</a> of file <a class="el" href="_fa_bo_proximity___v_c_n_l4010_8h_source.html">FaBoProximity_VCNL4010.h</a>.</p>
 
 </div>
 </div>

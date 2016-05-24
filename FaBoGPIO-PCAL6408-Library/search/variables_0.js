@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['gpio_5foutput',['gpio_output',['../class_fa_bo_g_p_i_o.html#a10c1ee3c7ba0d13b38e39ed8d2bd7182',1,'FaBoGPIO']]]
+  ['_5fi2caddr',['_i2caddr',['../class_fa_bo_g_p_i_o.html#a737787ddc84e17d4deccaa47a8ed8313',1,'FaBoGPIO']]],
+  ['_5foutput',['_output',['../class_fa_bo_g_p_i_o.html#aa9745d643a2f7b7f174d325ef640d67a',1,'FaBoGPIO']]]
 ];

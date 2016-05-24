@@ -1,4 +1,4 @@
 var annotated_dup =
 [
-    [ "isl29034", "classisl29034.html", "classisl29034" ]
+    [ "FaBoAmbientLight", "class_fa_bo_ambient_light.html", "class_fa_bo_ambient_light" ]
 ];

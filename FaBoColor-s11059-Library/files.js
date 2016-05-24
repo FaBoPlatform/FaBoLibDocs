@@ -1,5 +1,5 @@
 var files =
 [
-    [ "fabo-s11059.cpp", "fabo-s11059_8cpp.html", null ],
-    [ "fabo-s11059.h", "fabo-s11059_8h.html", "fabo-s11059_8h" ]
+    [ "FaBoColor_S11059.cpp", "_fa_bo_color___s11059_8cpp.html", null ],
+    [ "FaBoColor_S11059.h", "_fa_bo_color___s11059_8h.html", "_fa_bo_color___s11059_8h" ]
 ];

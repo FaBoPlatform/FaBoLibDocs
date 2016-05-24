@@ -113,45 +113,68 @@ $(document).ready(function(){initNavTree('class_fa_bo_g_p_i_o.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>pcal6408 Control  
+<p>FaBo GPIO I2C Controll class.  
  <a href="class_fa_bo_g_p_i_o.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="fabo-pcal6408_8h_source.html">fabo-pcal6408.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html">FaBoGPIO_PCAL6408.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a41d2f42ebed6dcb92bca096adb2866dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a41d2f42ebed6dcb92bca096adb2866dd">FaBoGPIO</a> (uint8_t addr=<a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h.html#a17d474e2fb7937f5c90cf7617db2d979">PCAL6408_SLAVE_ADDRESS</a>)</td></tr>
+<tr class="memdesc:a41d2f42ebed6dcb92bca096adb2866dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a41d2f42ebed6dcb92bca096adb2866dd">More...</a><br /></td></tr>
+<tr class="separator:a41d2f42ebed6dcb92bca096adb2866dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e84905483a48e78b24f8f88916ad999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a1e84905483a48e78b24f8f88916ad999">configuration</a> (void)</td></tr>
-<tr class="memdesc:a1e84905483a48e78b24f8f88916ad999"><td class="mdescLeft">&#160;</td><td class="mdescRight">set config  <a href="#a1e84905483a48e78b24f8f88916ad999">More...</a><br /></td></tr>
+<tr class="memdesc:a1e84905483a48e78b24f8f88916ad999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure Device.  <a href="#a1e84905483a48e78b24f8f88916ad999">More...</a><br /></td></tr>
 <tr class="separator:a1e84905483a48e78b24f8f88916ad999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d3baaaa783ff1753c47b34d4c3ed8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#aa1d3baaaa783ff1753c47b34d4c3ed8a">setDigital</a> (int port, int output)</td></tr>
-<tr class="memdesc:aa1d3baaaa783ff1753c47b34d4c3ed8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Digital Data.  <a href="#aa1d3baaaa783ff1753c47b34d4c3ed8a">More...</a><br /></td></tr>
-<tr class="separator:aa1d3baaaa783ff1753c47b34d4c3ed8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e5e5ddc461f4d71887d12f29913945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#af2e5e5ddc461f4d71887d12f29913945">setDigital</a> (uint8_t port, uint8_t output)</td></tr>
+<tr class="memdesc:af2e5e5ddc461f4d71887d12f29913945"><td class="mdescLeft">&#160;</td><td class="mdescRight">set Port to Digital  <a href="#af2e5e5ddc461f4d71887d12f29913945">More...</a><br /></td></tr>
+<tr class="separator:af2e5e5ddc461f4d71887d12f29913945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5eca878bd1ee96a07de4a77fd799ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#ad5eca878bd1ee96a07de4a77fd799ca1">setAllClear</a> ()</td></tr>
-<tr class="memdesc:ad5eca878bd1ee96a07de4a77fd799ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear All Port.  <a href="#ad5eca878bd1ee96a07de4a77fd799ca1">More...</a><br /></td></tr>
+<tr class="memdesc:ad5eca878bd1ee96a07de4a77fd799ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">All Port to LOW.  <a href="#ad5eca878bd1ee96a07de4a77fd799ca1">More...</a><br /></td></tr>
 <tr class="separator:ad5eca878bd1ee96a07de4a77fd799ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2801f876c79144c32b0c25fb81a8d357"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a2801f876c79144c32b0c25fb81a8d357">setGPIO</a> (byte output)</td></tr>
-<tr class="memdesc:a2801f876c79144c32b0c25fb81a8d357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set GPIO.  <a href="#a2801f876c79144c32b0c25fb81a8d357">More...</a><br /></td></tr>
-<tr class="separator:a2801f876c79144c32b0c25fb81a8d357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c64e800a6d82f528f4e5617c72bbcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a23c64e800a6d82f528f4e5617c72bbcf">setGPIO</a> (uint8_t output)</td></tr>
+<tr class="memdesc:a23c64e800a6d82f528f4e5617c72bbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">set Port to GPIO  <a href="#a23c64e800a6d82f528f4e5617c72bbcf">More...</a><br /></td></tr>
+<tr class="separator:a23c64e800a6d82f528f4e5617c72bbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0eab3d8ef8c41bf66cd4ebea5142d4bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a0eab3d8ef8c41bf66cd4ebea5142d4bc">writeI2c</a> (byte register_addr, byte value)</td></tr>
-<tr class="memdesc:a0eab3d8ef8c41bf66cd4ebea5142d4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C Data.  <a href="#a0eab3d8ef8c41bf66cd4ebea5142d4bc">More...</a><br /></td></tr>
-<tr class="separator:a0eab3d8ef8c41bf66cd4ebea5142d4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac38d5ea85a085ea1dc7dd430f505fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a7ac38d5ea85a085ea1dc7dd430f505fe">readI2c</a> (byte register_addr, int num, byte *buf)</td></tr>
-<tr class="memdesc:a7ac38d5ea85a085ea1dc7dd430f505fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read I2C Data.  <a href="#a7ac38d5ea85a085ea1dc7dd430f505fe">More...</a><br /></td></tr>
-<tr class="separator:a7ac38d5ea85a085ea1dc7dd430f505fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d9b952a5330efd6c58f179c7b8a8d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a61d9b952a5330efd6c58f179c7b8a8d9">writeI2c</a> (uint8_t address, uint8_t data)</td></tr>
+<tr class="memdesc:a61d9b952a5330efd6c58f179c7b8a8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write I2C.  <a href="#a61d9b952a5330efd6c58f179c7b8a8d9">More...</a><br /></td></tr>
+<tr class="separator:a61d9b952a5330efd6c58f179c7b8a8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a10c1ee3c7ba0d13b38e39ed8d2bd7182"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a10c1ee3c7ba0d13b38e39ed8d2bd7182">gpio_output</a> = 0x00</td></tr>
-<tr class="separator:a10c1ee3c7ba0d13b38e39ed8d2bd7182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737787ddc84e17d4deccaa47a8ed8313"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#a737787ddc84e17d4deccaa47a8ed8313">_i2caddr</a></td></tr>
+<tr class="separator:a737787ddc84e17d4deccaa47a8ed8313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9745d643a2f7b7f174d325ef640d67a"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fa_bo_g_p_i_o.html#aa9745d643a2f7b7f174d325ef640d67a">_output</a></td></tr>
+<tr class="separator:aa9745d643a2f7b7f174d325ef640d67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>pcal6408 Control </p>
+<div class="textblock"><p>FaBo GPIO I2C Controll class. </p>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8h_source.html#l00073">73</a> of file <a class="el" href="fabo-pcal6408_8h_source.html">fabo-pcal6408.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html#l00060">60</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html">FaBoGPIO_PCAL6408.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a41d2f42ebed6dcb92bca096adb2866dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaBoGPIO::FaBoGPIO </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>addr</em> = <code><a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h.html#a17d474e2fb7937f5c90cf7617db2d979">PCAL6408_SLAVE_ADDRESS</a></code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html#l00019">19</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a1e84905483a48e78b24f8f88916ad999"></a>
 <div class="memitem">
 <div class="memproto">
@@ -166,26 +189,26 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>set config </p>
+<p>Configure Device. </p>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8cpp_source.html#l00012">12</a> of file <a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html#l00028">28</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa1d3baaaa783ff1753c47b34d4c3ed8a"></a>
+<a class="anchor" id="af2e5e5ddc461f4d71887d12f29913945"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void FaBoGPIO::setDigital </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>port</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>output</em>&#160;</td>
         </tr>
         <tr>
@@ -196,16 +219,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set Digital Data. </p>
+<p>set Port to Digital </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">port</td><td>: set IO port </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>: set value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">port</td><td>Port </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>output </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8cpp_source.html#l00032">32</a> of file <a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html#l00045">45</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a>.</p>
 
 </div>
 </div>
@@ -222,39 +245,39 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Clear All Port. </p>
+<p>All Port to LOW. </p>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8cpp_source.html#l00047">47</a> of file <a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html#l00057">57</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2801f876c79144c32b0c25fb81a8d357"></a>
+<a class="anchor" id="a23c64e800a6d82f528f4e5617c72bbcf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void FaBoGPIO::setGPIO </td>
           <td>(</td>
-          <td class="paramtype">byte&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>output</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set GPIO. </p>
+<p>set Port to GPIO </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>: set value </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">output</td><td>output </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8cpp_source.html#l00057">57</a> of file <a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html#l00066">66</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0eab3d8ef8c41bf66cd4ebea5142d4bc"></a>
+<a class="anchor" id="a61d9b952a5330efd6c58f179c7b8a8d9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -264,14 +287,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void FaBoGPIO::writeI2c </td>
           <td>(</td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>register_addr</em>, </td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -286,73 +309,21 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Write I2C Data. </p>
+<p>Write I2C. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>: Write Register Address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>: Write Data </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">address</td><td>register address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>write data </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8cpp_source.html#l00066">66</a> of file <a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7ac38d5ea85a085ea1dc7dd430f505fe"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FaBoGPIO::readI2c </td>
-          <td>(</td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>register_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>num</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">byte *&#160;</td>
-          <td class="paramname"><em>buf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Read I2C Data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">register_addr</td><td>: register address </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>: Data Length </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">buffer[]</td><td>: Read Data </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="fabo-pcal6408_8cpp_source.html#l00080">80</a> of file <a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html#l00075">75</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a10c1ee3c7ba0d13b38e39ed8d2bd7182"></a>
+<a class="anchor" id="a737787ddc84e17d4deccaa47a8ed8313"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -360,7 +331,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">byte FaBoGPIO::gpio_output = 0x00</td>
+          <td class="memname">uint8_t FaBoGPIO::_i2caddr</td>
         </tr>
       </table>
   </td>
@@ -369,15 +340,36 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gpio output mode </p>
 
-<p>Definition at line <a class="el" href="fabo-pcal6408_8h_source.html#l00082">82</a> of file <a class="el" href="fabo-pcal6408_8h_source.html">fabo-pcal6408.h</a>.</p>
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html#l00068">68</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html">FaBoGPIO_PCAL6408.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9745d643a2f7b7f174d325ef640d67a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t FaBoGPIO::_output</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html#l00069">69</a> of file <a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html">FaBoGPIO_PCAL6408.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="fabo-pcal6408_8h_source.html">fabo-pcal6408.h</a></li>
-<li><a class="el" href="fabo-pcal6408_8cpp_source.html">fabo-pcal6408.cpp</a></li>
+<li><a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8h_source.html">FaBoGPIO_PCAL6408.h</a></li>
+<li><a class="el" href="_fa_bo_g_p_i_o___p_c_a_l6408_8cpp_source.html">FaBoGPIO_PCAL6408.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

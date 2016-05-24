@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['configuration',['configuration',['../class_fa_bo_proximity.html#a335de98f9c431b560d077144bd9f4336',1,'FaBoProximity']]]
+  ['begin',['begin',['../class_fa_bo_proximity.html#ae6c17458c6cf34f6462c7a3a57d27b50',1,'FaBoProximity']]]
 ];

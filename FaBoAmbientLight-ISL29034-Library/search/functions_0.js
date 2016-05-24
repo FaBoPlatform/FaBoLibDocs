@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['configuration',['configuration',['../classisl29034.html#aee7c4c6ba66de3fe2f45dc24634f5e67',1,'isl29034']]]
+  ['begin',['begin',['../class_fa_bo_ambient_light.html#a867cbdcd93d2ffd4d43b27571be40f62',1,'FaBoAmbientLight']]]
 ];

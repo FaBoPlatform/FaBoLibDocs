@@ -1,5 +1,5 @@
 var files =
 [
-    [ "fabo-pcal6408.cpp", "fabo-pcal6408_8cpp.html", null ],
-    [ "fabo-pcal6408.h", "fabo-pcal6408_8h.html", "fabo-pcal6408_8h" ]
+    [ "FaBoGPIO_PCAL6408.cpp", "_fa_bo_g_p_i_o___p_c_a_l6408_8cpp.html", null ],
+    [ "FaBoGPIO_PCAL6408.h", "_fa_bo_g_p_i_o___p_c_a_l6408_8h.html", "_fa_bo_g_p_i_o___p_c_a_l6408_8h" ]
 ];

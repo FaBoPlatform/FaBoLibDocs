@@ -1,0 +1,26 @@
+var _fa_bo_temperature___a_d_t7410_8h =
+[
+    [ "FaBoTemperature", "class_fa_bo_temperature.html", "class_fa_bo_temperature" ],
+    [ "ADT7410_SLAVE_ADDRESS", "_fa_bo_temperature___a_d_t7410_8h.html#a5f6126a009d6e6769bfb9586de8ed18f", null ],
+    [ "ADT7410_TEMP_MSB_REG", "_fa_bo_temperature___a_d_t7410_8h.html#a3e104a12fdb2643ec0c88113557b18c3", null ],
+    [ "ADT7410_TEMP_LSB_REG", "_fa_bo_temperature___a_d_t7410_8h.html#a8523382a1b1f5f662494944e25b8e30d", null ],
+    [ "ADT7410_STATUS_REG", "_fa_bo_temperature___a_d_t7410_8h.html#a10c5521571f14f0943ee58a0e938f80a", null ],
+    [ "ADT7410_CONFIGURATION_REG", "_fa_bo_temperature___a_d_t7410_8h.html#a8576e8d752086eabc83b79d46d913f61", null ],
+    [ "ADT7410_WHO_AM_I_REG", "_fa_bo_temperature___a_d_t7410_8h.html#afbca2544fc8bf5edfa72212c4ee7e5be", null ],
+    [ "ADT7410_13BIT_RESOLUTION", "_fa_bo_temperature___a_d_t7410_8h.html#ac263ba01c31c6b86be39e35f182700a0", null ],
+    [ "ADT7410_16BIT_RESOLUTION", "_fa_bo_temperature___a_d_t7410_8h.html#a7fb66a7f7be68112a86afb157f568936", null ],
+    [ "ADT7410_OP_MODE_CONTINUOUS", "_fa_bo_temperature___a_d_t7410_8h.html#ac793caee8adc8f4e851a4b824f7e74b1", null ],
+    [ "ADT7410_OP_MODE_ONESHOT", "_fa_bo_temperature___a_d_t7410_8h.html#a61e8fe1e6b4b2d6924b3bf4e9008135d", null ],
+    [ "ADT7410_OP_MODE_SPS", "_fa_bo_temperature___a_d_t7410_8h.html#ae57f01e2b3b0888d851985501d7deb2f", null ],
+    [ "ADT7410_OP_MODE_SHUTDOWN", "_fa_bo_temperature___a_d_t7410_8h.html#afcd0890a6359c5a16018214ef4a5c53a", null ],
+    [ "ADT7410_INTERRUPT_MODE", "_fa_bo_temperature___a_d_t7410_8h.html#a3f93c595ae5a449e59ff9ad97ca2df66", null ],
+    [ "ADT7410_COMPARATOR_MODE", "_fa_bo_temperature___a_d_t7410_8h.html#aa024638460736ec73f479537543140f8", null ],
+    [ "ADT7410_INT_LOW", "_fa_bo_temperature___a_d_t7410_8h.html#a496940ba854fd7812c7bf0e3eb4da55c", null ],
+    [ "ADT7410_INT_HIGH", "_fa_bo_temperature___a_d_t7410_8h.html#aba0c2b277870116aaa7f9013b919049c", null ],
+    [ "ADT7410_CT_LOW", "_fa_bo_temperature___a_d_t7410_8h.html#abe13f9993c6f4b8b82db9047a0dfbaa4", null ],
+    [ "ADT7410_CT_HIGH", "_fa_bo_temperature___a_d_t7410_8h.html#a957cc188774cf6e832d4e6d869927e6e", null ],
+    [ "ADT7410_16BIT_OP_MODE_1FAULT", "_fa_bo_temperature___a_d_t7410_8h.html#abda0c15e17f59ec7cf61fc93d7c29761", null ],
+    [ "ADT7410_16BIT_OP_MODE_2FAULT", "_fa_bo_temperature___a_d_t7410_8h.html#ad5a551d491b6b171a2debb514d5e77fc", null ],
+    [ "ADT7410_16BIT_OP_MODE_3FAULT", "_fa_bo_temperature___a_d_t7410_8h.html#aed2e9886502cd0a33fe63189a91150a8", null ],
+    [ "ADT7410_16BIT_OP_MODE_4FAULT", "_fa_bo_temperature___a_d_t7410_8h.html#a486ca93175be4c0af8589f57590c272d", null ]
+];

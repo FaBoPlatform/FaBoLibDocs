@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fabo_2dmpl115_2ecpp',['fabo-mpl115.cpp',['../fabo-mpl115_8cpp.html',1,'']]],
-  ['fabo_2dmpl115_2eh',['fabo-mpl115.h',['../fabo-mpl115_8h.html',1,'']]]
+  ['fabobarometer_5fmpl115_2ecpp',['FaBoBarometer_MPL115.cpp',['../_fa_bo_barometer___m_p_l115_8cpp.html',1,'']]],
+  ['fabobarometer_5fmpl115_2eh',['FaBoBarometer_MPL115.h',['../_fa_bo_barometer___m_p_l115_8h.html',1,'']]]
 ];

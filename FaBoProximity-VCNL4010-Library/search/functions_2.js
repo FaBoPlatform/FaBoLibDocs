@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['isambidataready',['isAmbiDataReady',['../class_fa_bo_proximity.html#a1cc7465e7a9a0dc4a5ce68818ed17a96',1,'FaBoProximity']]],
-  ['isproxdataready',['isProxDataReady',['../class_fa_bo_proximity.html#a1635967a9d9500ed1441fdd34abaa35e',1,'FaBoProximity']]]
+  ['dumpreg',['dumpReg',['../class_fa_bo_proximity.html#a499af03165c3488ca529db33b4c3ce9f',1,'FaBoProximity']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writei2c',['writeI2c',['../class_fa_bo_barometer.html#ac0713fe5753f5b0506e326ae68d52079',1,'FaBoBarometer']]]
+  ['fabobarometer',['FaBoBarometer',['../class_fa_bo_barometer.html#a5228af4ffc30dad001ac6abc1fdefd41',1,'FaBoBarometer']]]
 ];

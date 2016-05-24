@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readi2c',['readI2c',['../class_fa_bo_color.html#a286ec36ba9090db35f1c99d07a19e48a',1,'FaBoColor']]],
-  ['readrgbi',['readRGBI',['../class_fa_bo_color.html#a0e74466fb7c860d86f059e74f749091d',1,'FaBoColor']]]
+  ['checksleep',['checkSleep',['../class_fa_bo_color.html#a4f13e29a495b3dcb59f848f3da455e9a',1,'FaBoColor']]]
 ];
