@@ -4,7 +4,7 @@ var class_fa_bo_b_l_e =
     [ "ScanData", "struct_fa_bo_b_l_e_1_1_scan_data.html", "struct_fa_bo_b_l_e_1_1_scan_data" ],
     [ "setDebug", "class_fa_bo_b_l_e.html#adefa2c7cb79f744c01f825e096ca66db", null ],
     [ "setAdvParameters", "class_fa_bo_b_l_e.html#aeac4ff90768cae49a439d299d1c7bcb2", null ],
-    [ "setMode", "class_fa_bo_b_l_e.html#a008520355e8ce1ab217c42c216f45be6", null ],
+    [ "startAdv", "class_fa_bo_b_l_e.html#a64ea2a09a3d7a37c0eb9f1dec10f7f48", null ],
     [ "setBeaconUuid", "class_fa_bo_b_l_e.html#acc09de7a2b9efc29e7944dcdee715e7f", null ],
     [ "setBeaconMajor", "class_fa_bo_b_l_e.html#a61ecc2a54f0d6066d505641e9d9ea063", null ],
     [ "setBeaconMinor", "class_fa_bo_b_l_e.html#af5a812b47aea324c5dc1d695a17b6e62", null ],
