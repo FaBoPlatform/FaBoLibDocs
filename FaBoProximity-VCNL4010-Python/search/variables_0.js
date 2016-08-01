@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['address',['address',['../class_v_c_n_l4010_1_1_v_c_n_l4010.html#ade5a18d52133ef21f211020ceb464c07',1,'VCNL4010::VCNL4010']]],
+  ['ambi_5fauto_5foffset',['AMBI_AUTO_OFFSET',['../namespace_v_c_n_l4010.html#a73e49a087774d4898d087f9f83f0c1fb',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f1',['AMBI_AVE_NUM_1',['../namespace_v_c_n_l4010.html#a252163dce7658478c5fa16bc9f491661',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f128',['AMBI_AVE_NUM_128',['../namespace_v_c_n_l4010.html#a61c69ee112bfad713b04c66a88d46eb2',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f16',['AMBI_AVE_NUM_16',['../namespace_v_c_n_l4010.html#a62d5dcac573aa7accfac991baf2e2205',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f2',['AMBI_AVE_NUM_2',['../namespace_v_c_n_l4010.html#a9c1b85105243278ef3021f04ede7f63f',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f32',['AMBI_AVE_NUM_32',['../namespace_v_c_n_l4010.html#a32860cbf1595f8ea74c1f8c65640e593',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f4',['AMBI_AVE_NUM_4',['../namespace_v_c_n_l4010.html#a98b02ba53c508848f28d83d70bde3d6c',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f64',['AMBI_AVE_NUM_64',['../namespace_v_c_n_l4010.html#a21f6bedf10594f8d7dbdb40afed5fc07',1,'VCNL4010']]],
+  ['ambi_5fave_5fnum_5f8',['AMBI_AVE_NUM_8',['../namespace_v_c_n_l4010.html#ae8393b146b9dd3a30dd80d6cd36f74dd',1,'VCNL4010']]],
+  ['ambi_5fcont_5fconv_5fmode',['AMBI_CONT_CONV_MODE',['../namespace_v_c_n_l4010.html#af877d55fff3a8b1b8eabacc9d9c576e9',1,'VCNL4010']]],
+  ['ambi_5frate_5f1',['AMBI_RATE_1',['../namespace_v_c_n_l4010.html#a06d1e23496fffaf5e2ae08c57e661de2',1,'VCNL4010']]],
+  ['ambi_5frate_5f10',['AMBI_RATE_10',['../namespace_v_c_n_l4010.html#a99fcc7db862f350be1e61d2d8d2f94e3',1,'VCNL4010']]],
+  ['ambi_5frate_5f2',['AMBI_RATE_2',['../namespace_v_c_n_l4010.html#a8a38882cb005db96513dc576df346f6b',1,'VCNL4010']]],
+  ['ambi_5frate_5f3',['AMBI_RATE_3',['../namespace_v_c_n_l4010.html#ac772259cbd470bd603f7fab1acc5fa19',1,'VCNL4010']]],
+  ['ambi_5frate_5f4',['AMBI_RATE_4',['../namespace_v_c_n_l4010.html#a411c5626a7f94dc33c62b0c1c5822d0d',1,'VCNL4010']]],
+  ['ambi_5frate_5f5',['AMBI_RATE_5',['../namespace_v_c_n_l4010.html#a5878b57ac43858752c74b0ba118ee310',1,'VCNL4010']]],
+  ['ambi_5frate_5f6',['AMBI_RATE_6',['../namespace_v_c_n_l4010.html#af6b7cb136509310ed87534652c161205',1,'VCNL4010']]],
+  ['ambi_5frate_5f8',['AMBI_RATE_8',['../namespace_v_c_n_l4010.html#a8a5d4b2d240f2ad69cf9dbdf095447b3',1,'VCNL4010']]]
+];

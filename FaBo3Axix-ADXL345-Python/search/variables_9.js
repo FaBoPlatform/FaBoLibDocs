@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['range_5f16g',['RANGE_16G',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#a04b1da3ac0b75a5486c19e2671a8fdc2',1,'FaBo3Axis_ADXL345::ADXL345']]],
-  ['range_5f2g',['RANGE_2G',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#a18adff8ea43145a5017233611fedc5f1',1,'FaBo3Axis_ADXL345::ADXL345']]],
-  ['range_5f4g',['RANGE_4G',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#a0d6cfede355be80d4a65d7d8ab52de9a',1,'FaBo3Axis_ADXL345::ADXL345']]],
-  ['range_5f8g',['RANGE_8G',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#a89fab152f4f69891171fa61f83e254c8',1,'FaBo3Axis_ADXL345::ADXL345']]]
+  ['range_5f16g',['RANGE_16G',['../namespace_a_d_x_l345.html#a3a1ed17f55fdf0ce3eae4efe76c6f0b4',1,'ADXL345']]],
+  ['range_5f2g',['RANGE_2G',['../namespace_a_d_x_l345.html#a9009f6605762ec7bd3cff367a106231e',1,'ADXL345']]],
+  ['range_5f4g',['RANGE_4G',['../namespace_a_d_x_l345.html#a230d81703129cc051223b3fe36e80bf0',1,'ADXL345']]],
+  ['range_5f8g',['RANGE_8G',['../namespace_a_d_x_l345.html#ad32186b9c051ce597cbd8297822dadce',1,'ADXL345']]]
 ];

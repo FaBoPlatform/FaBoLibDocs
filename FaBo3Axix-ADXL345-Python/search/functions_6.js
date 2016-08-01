@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['read',['read',['../class_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345_1_1_a_d_x_l345.html#ae9da96cbd70226a0f498a4e1a07e4628',1,'FaBo3Axis_ADXL345::ADXL345::ADXL345']]],
-  ['readintstatus',['readIntStatus',['../class_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345_1_1_a_d_x_l345.html#afd06ceb8506dac2b3a85891d0e1f3f45',1,'FaBo3Axis_ADXL345::ADXL345::ADXL345']]]
+  ['read',['read',['../class_a_d_x_l345_1_1_a_d_x_l345.html#a810eee4c0cfa1825d24ae448d3dea8f4',1,'ADXL345::ADXL345']]],
+  ['readintstatus',['readIntStatus',['../class_a_d_x_l345_1_1_a_d_x_l345.html#adca3b2dc3464033b07a6db6475415ce2',1,'ADXL345::ADXL345']]]
 ];

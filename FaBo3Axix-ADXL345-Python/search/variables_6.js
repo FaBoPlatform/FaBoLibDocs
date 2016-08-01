@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['latent_5freg',['LATENT_REG',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#aa5d7977beeeb0593f46d9e3676fe6cc3',1,'FaBo3Axis_ADXL345::ADXL345']]]
+  ['latent_5freg',['LATENT_REG',['../namespace_a_d_x_l345.html#a879b16cb3020f981c87f8636bbc0a4d7',1,'ADXL345']]]
 ];

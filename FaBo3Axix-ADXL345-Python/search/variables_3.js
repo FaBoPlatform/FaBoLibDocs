@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['full_5fres_5foff',['FULL_RES_OFF',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#a8127d62b265afba30bc337578f89f3e1',1,'FaBo3Axis_ADXL345::ADXL345']]],
-  ['full_5fres_5fon',['FULL_RES_ON',['../namespace_fa_bo3_axis___a_d_x_l345_1_1_a_d_x_l345.html#a5a185900c76e7e78ddc3d2aafc1c572e',1,'FaBo3Axis_ADXL345::ADXL345']]]
+  ['full_5fres_5foff',['FULL_RES_OFF',['../namespace_a_d_x_l345.html#adab832cf0df1dc6a5720811c6be3c77a',1,'ADXL345']]],
+  ['full_5fres_5fon',['FULL_RES_ON',['../namespace_a_d_x_l345.html#ac31351285ddd5e0041d516c9dd99b895',1,'ADXL345']]]
 ];
